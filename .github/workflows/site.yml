@@ -1,0 +1,66 @@
+# Builds and deploys the site. Runs on every push to main, weekly on
+# Monday morning, and on demand (Actions tab > "Build site" > Run workflow).
+# Before the build it refreshes _data/publications.json from DBLP and ORCID
+# and commits the file if it changed. If a source is down, the fetch step
+# fails, the previous list is kept, and the site still deploys.
+name: Build site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch publications
+        id: fetch
+        continue-on-error: true
+        run: |
+          pip install --quiet pyyaml
+          python scripts/fetch_publications.py
+
+      - name: Commit publication list
+        if: steps.fetch.outcome == 'success'
+        run: |
+          if git diff --quiet -- _data/publications.json; then
+            echo "Publication list unchanged."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add _data/publications.json
+            git commit -m "Update publications from DBLP and ORCID"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
