@@ -1,0 +1,11 @@
+# Papers not (yet) in DBLP or ORCID. Remove an entry once it appears there,
+# otherwise it will be listed twice.
+[]
+# - title: "Paper title"
+#   authors: [First Author, Giovanni Cinà]
+#   year: 2026
+#   venue_short: ""
+#   venue: ""                  # full venue name; empty for preprints
+#   status: preprint            # preprint | under review | accepted | published
+#   arxiv: "2601.00000"
+#   url: https://arxiv.org/abs/2601.00000

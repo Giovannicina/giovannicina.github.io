@@ -1,0 +1,21 @@
+# Corrections and additions for automatically fetched publications.
+# Key each paper by its DOI, arXiv ID, or DBLP key (the `id` field in
+# _data/publications.json shows which one to use).
+#
+# Available fields:
+#   selected: true              show on the homepage
+#   hide: true                  remove from the site
+#   code / slides / project     extra links
+#   status: accepted            e.g. for an accepted paper still listed as a preprint
+#   venue / venue_short / title correct fetched metadata
+#   note: "Oral presentation"   short remark after the venue
+#   equal_contribution: [Name One, Name Two]
+
+papers: {}
+#  "2405.12658":
+#    selected: true
+#    code: https://github.com/...
+
+# Full names for venue abbreviations the script doesn't know.
+venues: {}
+#  "ML4H": "Machine Learning for Health Symposium"

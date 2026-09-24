@@ -1,0 +1,4 @@
+# Newest first is not required; the homepage sorts by date.
+# The homepage shows the latest `home_news` items (see _config.yml).
+- date: 2026-09-24
+  text: New website launched.

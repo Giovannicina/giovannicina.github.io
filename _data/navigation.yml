@@ -1,0 +1,9 @@
+# One line pair per page, in display order. To add a page: create
+# teaching.md (with `layout: default` and `title:` front matter) and add
+# its entry here.
+- title: Home
+  url: /
+- title: Publications
+  url: /publications/
+- title: CV
+  url: /cv/

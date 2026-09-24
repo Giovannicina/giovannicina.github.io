@@ -1,0 +1,23 @@
+{%- assign p = include.pub -%}
+<li class="pub">
+  <span class="pub-title">{% if p.url %}<a href="{{ p.url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</span>
+  <span class="pub-authors">
+    {%- for a in p.authors -%}
+    {%- if a.self %}<span class="self">{{ a.name }}</span>{% else %}{{ a.name }}{% endif %}{% if a.equal %}*{% endif %}{% unless forloop.last %}, {% endunless %}
+    {%- endfor -%}
+  </span>
+  <span class="pub-venue">
+    {%- if p.venue_short and p.venue_short != "" and p.status != "preprint" %}<abbr>{{ p.venue_short }}</abbr> {% endif -%}
+    {%- if p.venue and p.venue != "" %}<cite>{{ p.venue }}</cite>, {% elsif p.status == "preprint" %}Preprint, {% endif -%}
+    {{ p.year }}
+    {%- if p.status == "accepted" %}, accepted{% elsif p.status == "under review" %}, under review{% endif -%}
+    {%- if p.note %}. {{ p.note }}{% endif -%}
+  </span>
+  <span class="pub-links">
+    {%- if p.doi %} <a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
+    {%- if p.arxiv %} <a href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv</a>{% endif -%}
+    {%- if p.code %} <a href="{{ p.code }}">Code</a>{% endif -%}
+    {%- if p.slides %} <a href="{{ p.slides }}">Slides</a>{% endif -%}
+    {%- if p.project %} <a href="{{ p.project }}">Project page</a>{% endif -%}
+  </span>
+</li>

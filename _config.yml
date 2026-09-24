@@ -1,0 +1,35 @@
+# Site identity. Everything shown in the header, footer and homepage
+# heading comes from here.
+title: Giovanni Cinà
+description: Assistant Professor in Responsible Medical AI, Amsterdam UMC and University of Amsterdam.
+lang: en
+
+author:
+  name: Giovanni Cinà
+  position: Assistant Professor in Responsible Medical AI
+  affiliations:
+    - Department of Medical Informatics, Amsterdam UMC
+    - Institute for Logic, Language and Computation, University of Amsterdam
+  email: ""          # e.g. name@amsterdamumc.nl; leave empty to hide
+  photo: ""          # e.g. /assets/photo.jpg; leave empty to hide
+
+# Profile links, shown in the footer in this order. Remove any you don't want.
+links:
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=bg3RA64AAAAJ
+  - title: DBLP
+    url: https://dblp.org/pid/162/5077.html
+  - title: ORCID
+    url: https://orcid.org/0000-0002-3521-8208
+
+# Read by scripts/fetch_publications.py.
+publications:
+  dblp: "162/5077"
+  orcid: "0000-0002-3521-8208"
+  name: Giovanni Cinà               # how your name is displayed in author lists
+  name_variants: [Giovanni Ciná, Giovanni Cina, G. Cinà]
+
+# Number of news items and selected papers on the homepage.
+home_news: 5
+
+exclude: [scripts, README.md, Gemfile, Gemfile.lock, vendor]
