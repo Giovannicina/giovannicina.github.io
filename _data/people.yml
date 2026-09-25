@@ -1,0 +1,60 @@
+# People page. Two lists: `team` (PhDs and postdocs) and `collaborators`.
+# A section with no entries is not shown.
+#
+# Fields (all optional except name):
+#   name, role, affiliation, url (personal page), topic (one line), note
+#
+# The commented entries below are SUGGESTIONS drawn from your co-author list,
+# not verified. Uncomment (remove the leading "# ") the people who belong,
+# fill in their roles, and delete the rest.
+
+team:
+# - name: Mohammad Azizmalayeri
+#   role: PhD candidate
+#   affiliation: Amsterdam UMC
+#   topic: Out-of-distribution detection for clinical models
+# - name: Otto Nyberg
+#   role: PhD candidate
+#   affiliation: Amsterdam UMC
+# - name: Izak Yasrebi-de Kom
+#   role: PhD candidate
+#   affiliation: Amsterdam UMC
+# - name: Sagar Nagaraj Simha
+#   role: Postdoc
+#   affiliation: Amsterdam UMC
+# - name: Davide Tugnoli
+#   role: PhD candidate
+#   affiliation: University of Trieste
+#   note: co-supervised
+# - name: Samuele Punzo
+#   role: PhD candidate
+#   affiliation: University of Amsterdam
+# - name: Ana Esponera
+#   role: ""
+#   affiliation: ""
+
+collaborators:
+# - name: Ameen Abu-Hanna
+#   affiliation: Amsterdam UMC
+# - name: Paul Elbers
+#   affiliation: Amsterdam UMC
+# - name: Sandro Pezzelle
+#   affiliation: University of Amsterdam
+# - name: Fausto Carcassi
+#   affiliation: University of Amsterdam
+# - name: Ş. İlker Birbil
+#   affiliation: University of Amsterdam
+# - name: Rob Goedhart
+#   affiliation: University of Amsterdam
+# - name: Wouter van Amsterdam
+#   affiliation: UMC Utrecht
+# - name: Anne de Hond
+#   affiliation: UMC Utrecht
+# - name: Nan van Geloven
+#   affiliation: Leiden University Medical Center
+# - name: Jesse H. Krijthe
+#   affiliation: Delft University of Technology
+# - name: Sara Magliacane
+#   affiliation: University of Amsterdam
+# - name: Matthew Sperrin
+#   affiliation: University of Manchester

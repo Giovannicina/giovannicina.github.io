@@ -162,6 +162,18 @@ main > footer {
 .pub-links a + a { margin-left: 0.9rem; }
 .pub-links:empty { display: none; }
 
+/* People ---------------------------------------------------------------- */
+.people { list-style: none; padding: 0; margin: 0 0 1rem; }
+.person { margin: 0 0 1.1rem; line-height: 1.5; }
+.person > span { display: block; }
+.person-name { font-weight: 600; }
+.person-name a { color: var(--ink); text-decoration-color: var(--rule); }
+.person-name a:hover { text-decoration-color: currentColor; }
+.person-meta { color: var(--muted); font-size: 1rem; }
+.person-topic { font-size: 1rem; font-style: italic; color: var(--muted); }
+.people-compact { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 2rem; }
+.people-compact .person { margin-bottom: 0.9rem; }
+
 /* CV -------------------------------------------------------------------- */
 .cv {
   display: grid;
@@ -186,6 +198,7 @@ main > footer {
   .sidebar nav, .profiles { flex-direction: row; flex-wrap: wrap; gap: 0.4rem 1.25rem; padding-top: 1rem; }
   main { padding: 2rem 1.25rem 2rem; font-size: 1.0625rem; }
   .news, .cv { grid-template-columns: 1fr; gap: 0.1rem; }
+  .people-compact { grid-template-columns: 1fr; }
   .news dd, .cv dd { margin-bottom: 0.8rem; }
 }
 

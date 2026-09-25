@@ -1,0 +1,14 @@
+{%- assign p = include.person -%}
+<li class="person">
+  <span class="person-name">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</span>
+  {%- assign meta = "" -%}
+  {%- if p.role and p.role != "" %}{% assign meta = p.role %}{% endif -%}
+  {%- if p.affiliation and p.affiliation != "" %}{% if meta != "" %}{% assign meta = meta | append: ", " %}{% endif %}{% assign meta = meta | append: p.affiliation %}{% endif -%}
+  {%- if p.note and p.note != "" %}{% if meta != "" %}{% assign meta = meta | append: "; " %}{% endif %}{% assign meta = meta | append: p.note %}{% endif -%}
+  {%- if meta != "" %}
+  <span class="person-meta">{{ meta }}</span>
+  {%- endif %}
+  {%- if p.topic and p.topic != "" %}
+  <span class="person-topic">{{ p.topic }}</span>
+  {%- endif %}
+</li>

@@ -10,6 +10,7 @@
 #   venue / venue_short / title correct fetched metadata
 #   note: "Oral presentation"   short remark after the venue
 #   equal_contribution: [Name One, Name Two]
+#   keep: true                  list even if your name is missing from the author list
 #
 # OpenAlex lists all PMLR papers (ICML, AISTATS, CHIL, UAI, CLeaR, ...) under
 # "Proceedings of Machine Learning Research"; set their venue here, per paper.
@@ -45,6 +46,9 @@ papers:
   "10.2196/preprints.27795": {hide: true}                # = JMIR Medical Informatics 2022
   "Bisimulation for conditional modalities (extended version)": {hide: true}  # = Studia Logica
 
+  # --- Papers where you are only in a collaborator group, not a byline author
+  "10.1186/s13613-022-01070-0": {hide: true}             # Predicting responders to prone positioning (2022)
+
   # --- Works by other people named Giovanni Cinà
   "Subordinazione ed etero-organizzazione: rider e \"debolezza economica\" in una prospettiva comparata": {hide: true}
   "Principio di autodeterminazione e tutela della salute nel diritto privato regionale": {hide: true}
@@ -73,6 +77,9 @@ papers:
     title: "2-Step Agent: A Framework for the Interaction of a Decision Maker with AI Decision Support"
     authors: [Otto Nyberg, Davide Tugnoli, Fausto Carcassi, Giovanni Cinà]
     equal_contribution: [Otto Nyberg, Davide Tugnoli, Fausto Carcassi, Giovanni Cinà]
+
+  "10.1016/j.patter.2025.101229":                        # Patterns 2025: equal contribution as on arXiv
+    equal_contribution: [Wouter A. C. van Amsterdam, Giovanni Cinà]
 
   # --- Not full papers
   "10.1097/ccm.0000000000006976": {hide: true}           # "The authors reply:" (letter)

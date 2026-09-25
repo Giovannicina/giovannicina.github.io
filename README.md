@@ -6,7 +6,9 @@ Plain Jekyll, no theme, no JavaScript. Hosted on GitHub Pages.
 
 1. Create a repository named `<username>.github.io` and push these files to `main`.
 2. In the repository: Settings > Pages > Build and deployment > Source: **GitHub Actions**.
-3. Actions tab > "Build site" > Run workflow. The first run fills the publication list.
+3. Get a free OpenAlex API key at https://openalex.org/settings/api and store it under
+   Settings > Secrets and variables > Actions > New repository secret, named `OPENALEX_API_KEY`.
+4. Actions tab > "Build site" > Run workflow. The first run fills the publication list.
 
 ## Everyday edits
 
@@ -15,8 +17,9 @@ Plain Jekyll, no theme, no JavaScript. Hosted on GitHub Pages.
 | Name, position, links, email       | `_config.yml`                          |
 | Bio and research summary           | `index.md`                             |
 | News                               | `_data/news.yml`                       |
+| People page                        | `_data/people.yml`                     |
 | Featured papers, code links, fixes | `_data/overrides.yml`                  |
-| Papers not yet in DBLP or ORCID    | `_data/manual.yml`                     |
+| Papers not in OpenAlex or ORCID    | `_data/manual.yml`                     |
 | CV                                 | `cv.md`; upload `assets/cv.pdf`        |
 | Homepage photo                     | upload to `assets/`, set `photo` in `_config.yml` |
 | Appearance                         | `assets/style.css`                     |
@@ -44,13 +47,13 @@ to enable KaTeX (`\( ... \)` inline, `$$ ... $$` display) on that page.
 
 `scripts/fetch_publications.py` runs in the weekly workflow:
 
-1. Reads your DBLP record; merges each arXiv (CoRR) entry into its published version.
-2. Reads your ORCID works; adds those DBLP lacks, with metadata resolved via their DOI.
+1. Reads your works from OpenAlex (matched by ORCID iD); merges each preprint into its published version.
+2. Reads your ORCID works; adds those OpenAlex lacks, with metadata resolved via their DOI.
 3. Appends `manual.yml`, applies `overrides.yml`, sorts by year.
 
-If DBLP or ORCID is unreachable, or the count drops by more than 20%, nothing
+DBLP is not used: it blocks automated requests. If OpenAlex or ORCID is unreachable, or the count drops by more than 20%, nothing
 is written and the site keeps the previous list. Run locally with
-`pip install pyyaml && python scripts/fetch_publications.py`.
+`pip install pyyaml && OPENALEX_API_KEY=... python scripts/fetch_publications.py`.
 
 ## Local preview (optional)
 
