@@ -19,10 +19,8 @@ author:
 links:
   - title: Google Scholar
     url: https://scholar.google.com/citations?user=bg3RA64AAAAJ
-  - title: DBLP
-    url: https://dblp.org/pid/162/5077.html
-  - title: ORCID
-    url: https://orcid.org/0000-0002-3521-8208
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/giovanni-cinà-5a613334/
 
 # Read by scripts/fetch_publications.py.
 publications:
