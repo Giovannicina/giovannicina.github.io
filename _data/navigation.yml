@@ -1,7 +1,7 @@
-# One line pair per page, in display order. To add a page: create
-# teaching.md (with `layout: default` and `title:` front matter) and add
-# its entry here.
-- title: Home
+# One entry per page, in display order. To add a page: create
+# teaching.md (with `layout: default`, `title:` and `permalink:` front
+# matter) and add its entry here.
+- title: About me
   url: /
 - title: Publications
   url: /publications/

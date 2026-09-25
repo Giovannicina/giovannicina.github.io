@@ -1,24 +1,29 @@
 /* Tokens ---------------------------------------------------------------- */
 :root {
-  --paper: #fbfcfd;
-  --ink: #1b1f27;
-  --muted: #5e6572;
-  --rule: #d9dde3;
-  --accent: #1f5a7a;
+  --paper: #ffffff;
+  --panel: #f2f3f6;
+  --ink: #1f2430;
+  --muted: #4b5263;
+  --faint: #5a6170;
+  --rule: #d6d9e0;
+  --accent: #2f4b7c;
 
-  --serif: "STIX Two Text", "STIX Two", "Cambria", "Georgia", serif;
-  --measure: 38rem;
-  --gutter: 7rem;          /* margin column for headings and years */
+  --serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --sidebar: 21.25rem;
+  --measure: 44rem;
   color-scheme: light dark;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --paper: #14171c;
-    --ink: #e3e6ea;
-    --muted: #9aa1ac;
-    --rule: #2a2f37;
-    --accent: #86b7d3;
+    --paper: #16191f;
+    --panel: #1d2129;
+    --ink: #e4e6eb;
+    --muted: #b0b6c2;
+    --faint: #98a0ad;
+    --rule: #2f3440;
+    --accent: #9db7e3;
   }
 }
 
@@ -26,21 +31,18 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 html {
-  font-family: var(--serif);
-  font-size: 112.5%;       /* 18px */
-  line-height: 1.6;
-  color: var(--ink);
-  background: var(--paper);
+  font-size: 100%;
   -webkit-text-size-adjust: 100%;
-  text-rendering: optimizeLegibility;
+  background: var(--paper);
 }
 
 body {
-  margin: 0 auto;
-  padding: 3rem 1.25rem 2rem;
-  max-width: calc(var(--measure) + 2.5rem);
-  font-variant-numeric: oldstyle-nums proportional-nums;
-  hyphens: auto;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: var(--serif);
 }
 
 a {
@@ -49,119 +51,148 @@ a {
   text-underline-offset: 0.18em;
 }
 a:hover { text-decoration-thickness: 2px; }
-a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 1px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
 
-p, ul, ol, dl { margin: 0 0 1rem; }
-ul { padding-left: 1.2rem; }
-li + li { margin-top: 0.25rem; }
+/* Sidebar --------------------------------------------------------------- */
+.sidebar {
+  width: var(--sidebar);
+  flex-shrink: 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+  padding: 4.5rem 2.5rem 2.5rem;
+  background: var(--panel);
+  font-family: var(--sans);
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+.sidebar p { margin: 0; }
 
-h1, h2 { font-weight: 400; line-height: 1.25; }
-h1 { font-size: 1.6rem; margin: 0 0 1.5rem; }
-h2 {
-  font-size: 1rem;
-  font-style: italic;
-  color: var(--muted);
-  margin: 2.5rem 0 0.75rem;
+.portrait {
+  width: 8.75rem;
+  height: 8.75rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.visually-hidden {
-  position: absolute; width: 1px; height: 1px; overflow: hidden;
-  clip: rect(0 0 0 0); white-space: nowrap;
-}
-
-/* Header and footer ----------------------------------------------------- */
-header.site {
-  display: flex; flex-wrap: wrap; align-items: baseline;
-  justify-content: space-between; gap: 0.5rem 2rem;
-  margin-bottom: 3rem;
-}
-header.site .name {
-  font-size: 1.45rem;
-  font-variant-caps: small-caps;
-  letter-spacing: 0.03em;
+.identity { display: flex; flex-direction: column; gap: 0.5rem; }
+.name {
+  font-family: var(--serif);
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 1.15;
   color: var(--ink);
   text-decoration: none;
 }
-header.site nav { display: flex; flex-wrap: wrap; gap: 0 1.25rem; }
-header.site nav a { color: var(--muted); text-decoration: none; }
-header.site nav a:hover,
-header.site nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+.position { font-size: 0.95rem; line-height: 1.5; color: var(--muted); }
 
-footer.site {
-  margin-top: 4rem; padding-top: 1rem;
+.affiliations {
+  display: flex; flex-direction: column; gap: 0.9rem;
+  font-size: 0.875rem; line-height: 1.55; color: var(--muted);
+}
+
+.sidebar nav,
+.profiles {
+  display: flex; flex-direction: column;
+  padding-top: 1.25rem;
   border-top: 1px solid var(--rule);
-  font-size: 0.85rem; color: var(--muted);
 }
-footer.site p { margin: 0 0 0.35rem; }
-footer.site .profiles { display: flex; flex-wrap: wrap; gap: 0 1.25rem; }
+.sidebar nav { gap: 0.6rem; font-size: 1rem; font-weight: 600; }
+.sidebar nav a { color: var(--muted); text-decoration: none; }
+.sidebar nav a:hover { color: var(--ink); }
+.sidebar nav a[aria-current="page"] { color: var(--accent); }
+.profiles { gap: 0.35rem; font-size: 0.875rem; overflow-wrap: anywhere; }
 
-/* Homepage -------------------------------------------------------------- */
-.intro { display: flow-root; margin-bottom: 1.5rem; }
-.portrait {
-  float: right; width: 8rem; height: auto;
-  margin: 0.3rem 0 1rem 1.5rem;
-  filter: grayscale(1);
+/* Main column ----------------------------------------------------------- */
+main {
+  flex-grow: 1;
+  min-width: 0;
+  max-width: calc(var(--measure) + 12rem);
+  padding: 4.5rem 6rem 3rem;
+  font-size: 1.125rem;
+  line-height: 1.7;
 }
-.position { color: var(--muted); }
-.position::first-line { color: var(--ink); }
-.more { margin-top: -0.25rem; }
+
+main p, main ul, main ol, main dl { margin: 0 0 1rem; }
+main ul { padding-left: 1.2rem; }
+main li + li { margin-top: 0.2rem; }
+
+h1, h2 { font-weight: 600; line-height: 1.25; }
+h1 { font-size: 1.75rem; margin: 0 0 1.5rem; }
+h2 { font-size: 1.375rem; margin: 2.75rem 0 0.9rem; }
+h1 + h2 { margin-top: 0; }
+
 .lede { color: var(--muted); }
 
-.news { display: grid; grid-template-columns: auto 1fr; gap: 0.4rem 1.25rem; }
-.news dt { color: var(--muted); white-space: nowrap; font-variant-numeric: lining-nums tabular-nums; }
+main > footer {
+  margin-top: 4rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--faint);
+}
+
+/* News ------------------------------------------------------------------ */
+.news {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr;
+  gap: 0.6rem 1.25rem;
+  line-height: 1.55;
+}
+.news dt {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  color: var(--faint);
+  padding-top: 0.1rem;
+}
 .news dd { margin: 0; }
 
 /* Publications ---------------------------------------------------------- */
-.pubs { list-style: none; padding: 0; margin: 0 0 1rem; }
-.pub { margin: 0 0 1.1rem; }
+.pubs { list-style: none; padding: 0; margin: 0; }
+.pub { margin: 0 0 1.25rem; font-size: 1.0625rem; line-height: 1.55; }
 .pub > span { display: block; }
-.pub-title { color: var(--ink); }
-.pub-title a { color: inherit; text-decoration-color: var(--rule); }
+.pub-title a { color: var(--ink); text-decoration-color: var(--rule); }
 .pub-title a:hover { text-decoration-color: currentColor; }
-.pub-authors, .pub-venue { font-size: 0.9rem; color: var(--muted); }
-.pub-authors .self { color: var(--ink); font-weight: 600; }
-.pub-venue abbr {
-  font-variant-caps: all-small-caps; letter-spacing: 0.04em;
-  color: var(--ink); text-decoration: none;
-}
-.pub-venue cite { font-style: italic; }
-.pub-links { font-size: 0.85rem; }
+.pub-meta { color: var(--muted); }
+.pub-meta strong { color: var(--ink); font-weight: 600; }
+.pub-links { font-family: var(--sans); font-size: 0.875rem; }
 .pub-links a + a { margin-left: 0.9rem; }
 .pub-links:empty { display: none; }
 
-.year h2 {
-  font-style: normal;
-  font-variant-numeric: lining-nums;
-  color: var(--ink); font-size: 1.05rem;
-}
-
 /* CV -------------------------------------------------------------------- */
-.cv { display: grid; grid-template-columns: 5.5rem 1fr; gap: 0.5rem 1.25rem; }
-.cv dt { color: var(--muted); font-variant-numeric: lining-nums tabular-nums; }
+.cv {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 0.6rem 1.25rem;
+  line-height: 1.55;
+}
+.cv dt { font-family: var(--sans); font-size: 0.95rem; color: var(--faint); padding-top: 0.1rem; }
 .cv dd { margin: 0; }
 
-/* Wide screens: headings, years and dates move into a left margin column,
-   so the text column keeps a single clean left edge. -------------------- */
-@media (min-width: 62rem) {
-  body { max-width: calc(var(--measure) + var(--gutter) * 2 + 2.5rem); }
-  header.site, main, footer.site { margin-left: var(--gutter); max-width: var(--measure); }
-  /* Zero-height heading: its text hangs in the gutter, level with the
-     first line of the content that follows. */
-  main h2 {
-    height: 0;
-    width: calc(var(--gutter) - 1.5rem);
-    margin: 2.5rem 0 0 calc(-1 * var(--gutter));
-    text-align: right;
-    line-height: 1.6;
+/* Narrow screens: sidebar becomes a header ------------------------------ */
+@media (max-width: 56rem) {
+  body { display: block; }
+  .sidebar {
+    width: auto; height: auto; position: static;
+    padding: 2rem 1.25rem 1.5rem;
+    gap: 1.25rem;
   }
-  main h2 + * { margin-top: 0; }
-  .year { margin-top: 2rem; }
-  main .year h2 { margin-top: 0; }
-  .intro + p { margin-top: 0; }
+  .portrait { width: 6.5rem; height: 6.5rem; }
+  .name { font-size: 1.6rem; }
+  .affiliations { display: none; }
+  .sidebar nav, .profiles { flex-direction: row; flex-wrap: wrap; gap: 0.4rem 1.25rem; padding-top: 1rem; }
+  main { padding: 2rem 1.25rem 2rem; font-size: 1.0625rem; }
+  .news, .cv { grid-template-columns: 1fr; gap: 0.1rem; }
+  .news dd, .cv dd { margin-bottom: 0.8rem; }
 }
 
 @media print {
-  header.site nav, footer.site .profiles { display: none; }
+  body { display: block; }
+  .sidebar { position: static; height: auto; background: none; padding: 0 0 1rem; }
+  .sidebar nav, .profiles { display: none; }
+  main { padding: 0; max-width: none; }
   a { color: inherit; text-decoration: none; }
-  body { max-width: none; padding: 0; }
 }

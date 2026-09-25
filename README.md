@@ -18,6 +18,7 @@ Plain Jekyll, no theme, no JavaScript. Hosted on GitHub Pages.
 | Featured papers, code links, fixes | `_data/overrides.yml`                  |
 | Papers not yet in DBLP or ORCID    | `_data/manual.yml`                     |
 | CV                                 | `cv.md`; upload `assets/cv.pdf`        |
+| Homepage photo                     | upload to `assets/`, set `photo` in `_config.yml` |
 | Appearance                         | `assets/style.css`                     |
 
 Never edit `_data/publications.json`; it is regenerated weekly.

@@ -8,10 +8,12 @@ author:
   name: Giovanni Cinà
   position: Assistant Professor in Responsible Medical AI
   affiliations:
-    - Department of Medical Informatics, Amsterdam UMC
-    - Institute for Logic, Language and Computation, University of Amsterdam
+    - unit: Department of Medical Informatics
+      institution: Amsterdam UMC
+    - unit: Institute for Logic, Language and Computation
+      institution: University of Amsterdam
   email: ""          # e.g. name@amsterdamumc.nl; leave empty to hide
-  photo: ""          # e.g. /assets/photo.jpg; leave empty to hide
+  photo: ""          # e.g. /assets/photo.jpg; shown on the homepage only
 
 # Profile links, shown in the footer in this order. Remove any you don't want.
 links:
@@ -29,7 +31,6 @@ publications:
   name: Giovanni Cinà               # how your name is displayed in author lists
   name_variants: [Giovanni Ciná, Giovanni Cina, G. Cinà]
 
-# Number of news items and selected papers on the homepage.
-home_news: 5
+home_news: 5          # number of news items on the homepage
 
 exclude: [scripts, README.md, Gemfile, Gemfile.lock, vendor]
