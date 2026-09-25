@@ -1,1 +1,4570 @@
-[]
+[
+ {
+  "title": "Improving TabPFN's Synthetic Data Generation by Integrating Causal Structure",
+  "authors": [
+   {
+    "name": "Davide Tugnoli",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Andrea De Lorenzo",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco Virgolin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2603.10254",
+  "url": "https://doi.org/10.48550/arxiv.2603.10254",
+  "openalex": "W7135041736",
+  "selected": false,
+  "id": "2603.10254"
+ },
+ {
+  "title": "Is my model perplexed for the right reason? Contrasting LLMs' Benchmark Behavior with Token-Level Perplexity",
+  "authors": [
+   {
+    "name": "Zoë Prins",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Samuele Punzo",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Frank Wildenburg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Sandro Pezzelle",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2603.29396",
+  "url": "https://arxiv.org/abs/2603.29396",
+  "openalex": "W7147335386",
+  "selected": false,
+  "id": "2603.29396"
+ },
+ {
+  "title": "Optimal stopping of ICU treatments under hypothetical interventions - A Scoping Review",
+  "authors": [
+   {
+    "name": "Sagar Nagaraj Simha",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jessica Workum",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "SSRN Electronic Journal",
+  "status": "preprint",
+  "doi": "10.2139/ssrn.6350818",
+  "arxiv": null,
+  "url": "https://doi.org/10.2139/ssrn.6350818",
+  "openalex": "W7134852024",
+  "selected": false,
+  "id": "10.2139/ssrn.6350818"
+ },
+ {
+  "title": "The authors reply:",
+  "authors": [
+   {
+    "name": "Mohammad Azizmalayeri",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolette F. de Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fabian Termorshuizen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A. Abu-Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "Critical Care Medicine",
+  "venue_key": "Critical Care Medicine",
+  "status": "published",
+  "doi": "10.1097/ccm.0000000000006976",
+  "arxiv": null,
+  "url": "https://doi.org/10.1097/ccm.0000000000006976",
+  "openalex": "W7118302886",
+  "selected": false,
+  "id": "10.1097/ccm.0000000000006976"
+ },
+ {
+  "title": "Where Animacy Lives in Large Language Models: Tracing the Circuits of the Animacy Concept",
+  "authors": [
+   {
+    "name": "Samuele Punzo",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Sandro Pezzelle",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2607.20995",
+  "url": "https://arxiv.org/abs/2607.20995",
+  "openalex": "W7171268353",
+  "selected": false,
+  "id": "2607.20995"
+ },
+ {
+  "title": "Enhancing Quality of Care Assessments: Managing Atypical Patients in ICU Benchmarking in The Netherlands",
+  "authors": [
+   {
+    "name": "Mohammad Azizmalayeri",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sylvia Brinkman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolette F. de Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fabian Termorshuizen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Critical Care Medicine",
+  "venue_key": "Critical Care Medicine",
+  "status": "published",
+  "doi": "10.1097/ccm.0000000000006828",
+  "arxiv": null,
+  "url": "https://doi.org/10.1097/ccm.0000000000006828",
+  "openalex": "W4413140607",
+  "selected": false,
+  "id": "10.1097/ccm.0000000000006828"
+ },
+ {
+  "title": "ICU readmission and mortality risk prediction: Generalizability of a multi-hospital model",
+  "authors": [
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Corstiaan A. den Uil",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Reinier F. Crane",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Journal of Intensive Medicine",
+  "venue_key": "Journal of Intensive Medicine",
+  "status": "published",
+  "doi": "10.1016/j.jointm.2025.03.007",
+  "arxiv": null,
+  "url": "https://doi.org/10.1016/j.jointm.2025.03.007",
+  "openalex": "W4411272759",
+  "selected": false,
+  "id": "10.1016/j.jointm.2025.03.007"
+ },
+ {
+  "title": "P003 Predictors of differential treatment response between adalimumab and methotrexate in psoriasis: a causal forest analysis of the British Association of Dermatologists Biologics and Immunomodulators Register",
+  "authors": [
+   {
+    "name": "Wei Yann Haw",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Oras Alabas",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Matthew Sperrin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Richard Bruce Warren",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "British Journal of Dermatology",
+  "venue_key": "British Journal of Dermatology",
+  "status": "published",
+  "doi": "10.1093/bjd/ljaf085.031",
+  "arxiv": null,
+  "url": "https://doi.org/10.1093/bjd/ljaf085.031",
+  "openalex": "W4411733229",
+  "selected": false,
+  "id": "10.1093/bjd/ljaf085.031"
+ },
+ {
+  "title": "The Risks of Risk Assessment: Causal Blind Spots When Using Prediction Models for Treatment Decisions",
+  "authors": [
+   {
+    "name": "Nan van Geloven",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ruth H. Keogh",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter A. C. van Amsterdam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Jesse H. Krijthe",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels B. Peek",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Kim Luijken",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sara Magliacane",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paweł Morzywołek",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs van Ommen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hein Putter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Matthew Sperrin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Junfeng Wang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daniala L. Weir",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Vanessa Didelez",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Annals of Internal Medicine",
+  "venue_key": "Annals of Internal Medicine",
+  "status": "published",
+  "doi": "10.7326/annals-24-00279",
+  "arxiv": "2402.17366",
+  "url": "https://doi.org/10.7326/annals-24-00279",
+  "openalex": "W4412706553",
+  "selected": false,
+  "id": "10.7326/annals-24-00279"
+ },
+ {
+  "title": "Vancomycin‐Induced Acute Kidney Injury in Intensive Care Patients: A Target Trial Emulation Study Using Multicenter Routinely Collected Data",
+  "authors": [
+   {
+    "name": "Izak Yasrebi‐de Kom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Kitty J. Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Vianda S Stel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicholas C Chesnaye",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolette F. de Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dylan W. de Lange",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joanna Ewa Klopotowska",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "the RESCUE Study Group",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Pharmacoepidemiology and Drug Safety",
+  "venue_key": "Pharmacoepidemiology and Drug Safety",
+  "status": "published",
+  "doi": "10.1002/pds.70205",
+  "arxiv": null,
+  "url": "https://doi.org/10.1002/pds.70205",
+  "openalex": "W4413802699",
+  "selected": false,
+  "id": "10.1002/pds.70205"
+ },
+ {
+  "title": "When accurate prediction models yield harmful self-fulfilling prophecies",
+  "authors": [
+   {
+    "name": "Wouter A. C. van Amsterdam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nan van Geloven",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jesse H. Krijthe",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rajesh Ranganath",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Patterns",
+  "venue_key": "Patterns",
+  "status": "published",
+  "doi": "10.1016/j.patter.2025.101229",
+  "arxiv": "2312.01210",
+  "url": "https://doi.org/10.1016/j.patter.2025.101229",
+  "openalex": "W4409362061",
+  "selected": false,
+  "id": "10.1016/j.patter.2025.101229"
+ },
+ {
+  "title": "When, where, who, what, and why? The five Ws of workflow analysis for implementing an AI decision support tool at the intensive care",
+  "authors": [
+   {
+    "name": "Anne de Hond",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Suzanne Vosslamber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sanne Lange",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Friso Engel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mette Lindhout",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Puck Noorlag",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ewout Willem Steyerberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Human Factors in Healthcare",
+  "venue_key": "Human Factors in Healthcare",
+  "status": "published",
+  "doi": "10.1016/j.hfh.2025.100095",
+  "arxiv": null,
+  "url": "https://doi.org/10.1016/j.hfh.2025.100095",
+  "openalex": "W4407730979",
+  "selected": false,
+  "id": "10.1016/j.hfh.2025.100095"
+ },
+ {
+  "title": "Why we do need explainable AI for healthcare",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Tabea E. Röber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob Goedhart",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ş. İlker Birbil",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue_short": "",
+  "venue": "Diagnostic and Prognostic Research",
+  "venue_key": "Diagnostic and Prognostic Research",
+  "status": "published",
+  "doi": "10.1186/s41512-025-00209-4",
+  "arxiv": "2206.15363",
+  "url": "https://doi.org/10.1186/s41512-025-00209-4",
+  "openalex": "W4416935310",
+  "selected": false,
+  "id": "10.1186/s41512-025-00209-4"
+ },
+ {
+  "title": "Causal blind spots when using prediction models for treatment decisions",
+  "authors": [
+   {
+    "name": "Nan van Geloven",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ruth H. Keogh",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter A. C. van Amsterdam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Jesse H Krijthe",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels Peek",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Kim Luijken",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sara Magliacane",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paweł Morzywołek",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs van Ommen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hein Putter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Matthew Sperrin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Junfeng Wang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daniala L. Weir",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Vanessa Didelez",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "Pure Amsterdam UMC",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": null,
+  "url": "https://pure.amsterdamumc.nl/en/publications/c08c45fc-7d06-4167-8b8d-e0d2735ff589",
+  "openalex": "W7132346828",
+  "selected": false,
+  "id": "W7132346828"
+ },
+ {
+  "title": "Development and clinical implementation of real-time decision support tools for ICU discharge",
+  "authors": [
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Anne de Hond",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Christopher Martin Sauer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattia Fornasa",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "Journal of Critical Care",
+  "venue_key": "Journal of Critical Care",
+  "status": "published",
+  "doi": "10.1016/j.jcrc.2024.154558",
+  "arxiv": null,
+  "url": "https://doi.org/10.1016/j.jcrc.2024.154558",
+  "openalex": "W4393338388",
+  "selected": false,
+  "id": "10.1016/j.jcrc.2024.154558"
+ },
+ {
+  "title": "Icu Readmission Risk Prediction: Generalizability of a Multi-Hospital Model",
+  "authors": [
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Corstiaan A. den Uil",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Reinier  F. Crane",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "SSRN Electronic Journal",
+  "status": "preprint",
+  "doi": "10.2139/ssrn.5021594",
+  "arxiv": null,
+  "url": "https://doi.org/10.2139/ssrn.5021594",
+  "openalex": "W4404567054",
+  "selected": false,
+  "id": "10.2139/ssrn.5021594"
+ },
+ {
+  "title": "ICURE: Intensive care unit (ICU) risk evaluation for 30‐day mortality. Developing and evaluating a multivariable machine learning prediction model for patients admitted to the general ICU in Sweden",
+  "authors": [
+   {
+    "name": "Tobias Siöland",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Araz Rawshani",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bengt Nellgård",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Johan A Malmgren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jonatan Oras",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Keti Dalla",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Lars Engerström",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fredrik Hessulf",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "Acta Anaesthesiologica Scandinavica",
+  "venue_key": "Acta Anaesthesiologica Scandinavica",
+  "status": "published",
+  "doi": "10.1111/aas.14501",
+  "arxiv": null,
+  "url": "https://doi.org/10.1111/aas.14501",
+  "openalex": "W4400895713",
+  "selected": false,
+  "id": "10.1111/aas.14501"
+ },
+ {
+  "title": "Mitigating Overconfidence in Out-of-Distribution Detection by Capturing Extreme Activations",
+  "authors": [
+   {
+    "name": "Mohammad Azizmalayeri",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2405.12658",
+  "arxiv": "2405.12658",
+  "url": "http://arxiv.org/abs/2405.12658",
+  "openalex": "W4398230225",
+  "selected": false,
+  "id": "10.48550/arxiv.2405.12658"
+ },
+ {
+  "title": "Risk‐Based Decision Making: Estimands for Sequential Prediction Under Interventions",
+  "authors": [
+   {
+    "name": "Kim Luijken",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paweł Morzywołek",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter van Amsterdam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Jeroen Hoogland",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ruth H. Keogh",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jesse H. Krijthe",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sara Magliacane",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs van Ommen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels B. Peek",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hein Putter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Maarten van Smeden",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Matthew Sperrin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Junfeng Wang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daniala L. Weir",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Vanessa Didelez",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nan van Geloven",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "Biometrical Journal",
+  "venue_key": "Biometrical Journal",
+  "status": "published",
+  "doi": "10.1002/bimj.70011",
+  "arxiv": "2311.17547",
+  "url": "https://doi.org/10.1002/bimj.70011",
+  "openalex": "W4404820576",
+  "selected": false,
+  "id": "10.1002/bimj.70011"
+ },
+ {
+  "title": "Unmasking the chameleons: A benchmark for out-of-distribution detection in medical tabular data",
+  "authors": [
+   {
+    "name": "Mohammad Azizmalayeri",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "International Journal of Medical Informatics",
+  "venue_key": "International Journal of Medical Informatics",
+  "status": "published",
+  "doi": "10.1016/j.ijmedinf.2024.105762",
+  "arxiv": "2309.16220",
+  "url": "https://doi.org/10.1016/j.ijmedinf.2024.105762",
+  "openalex": "W4405494592",
+  "selected": false,
+  "id": "10.1016/j.ijmedinf.2024.105762"
+ },
+ {
+  "title": "Causal prediction models for medication safety monitoring: The diagnosis of vancomycin-induced acute kidney injury",
+  "authors": [
+   {
+    "name": "Izak Yasrebi‐de Kom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joanna Ewa Klopotowska",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolette F. de Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Kitty J. Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2023,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2311.09137",
+  "arxiv": "2311.09137",
+  "url": "http://arxiv.org/abs/2311.09137",
+  "openalex": "W4388748422",
+  "selected": false,
+  "id": "10.48550/arxiv.2311.09137"
+ },
+ {
+  "title": "Fixing confirmation bias in feature attribution methods via semantic match",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Daniel Fernández-Llaneza",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Deponte, Ludovico",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nishant Mishra",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tabea E. Röber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sandro Pezzelle",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Iacer Calixto",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob Goedhart",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ş. İlker Birbil",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2023,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2307.00897",
+  "arxiv": "2307.00897",
+  "url": "http://arxiv.org/abs/2307.00897",
+  "openalex": "W4383176552",
+  "selected": false,
+  "id": "10.48550/arxiv.2307.00897"
+ },
+ {
+  "title": "Semantic match: Debugging feature attribution methods in XAI for healthcare",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Tabea E. Röber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob Goedhart",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ş. İlker Birbil",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2023,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2301.02080",
+  "arxiv": "2301.02080",
+  "url": "http://arxiv.org/abs/2301.02080",
+  "openalex": "W4313679563",
+  "selected": false,
+  "id": "10.48550/arxiv.2301.02080"
+ },
+ {
+  "title": "Impact of a Machine Learning–Based Decision Support System for Urinary Tract Infections: Prospective Observational Study in 36 Primary Care Practices",
+  "authors": [
+   {
+    "name": "Willem Ernst Herter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Janine Khuc",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Bart J. Knottnerus",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattijs Everard Numans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Maryse A. Wiewel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tobias Nicolaas Bonten",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thamar van Esch",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels Henrik Chavannes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert A. Verheij",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2022,
+  "venue_short": "",
+  "venue": "JMIR Medical Informatics",
+  "venue_key": "JMIR Medical Informatics",
+  "status": "published",
+  "doi": "10.2196/27795",
+  "arxiv": null,
+  "url": "https://doi.org/10.2196/27795",
+  "openalex": "W4213306591",
+  "selected": false,
+  "id": "10.2196/27795"
+ },
+ {
+  "title": "Intensive Care Unit Physicians’ Perspectives on Artificial Intelligence–Based Clinical Decision Support Tools: Preimplementation Survey Study",
+  "authors": [
+   {
+    "name": "Siri Lise van der Meijden",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Anne de Hond",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ewout Willem Steyerberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ilse  M.J. Kant",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2022,
+  "venue_short": "",
+  "venue": "JMIR Human Factors",
+  "venue_key": "JMIR Human Factors",
+  "status": "published",
+  "doi": "10.2196/39114",
+  "arxiv": null,
+  "url": "https://doi.org/10.2196/39114",
+  "openalex": "W4312629627",
+  "selected": false,
+  "id": "10.2196/39114"
+ },
+ {
+  "title": "Out-of-Distribution Detection for Medical Applications: Guidelines for Practical Evaluation",
+  "authors": [
+   {
+    "name": "Karina Zadorozhny",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2022,
+  "venue_short": "",
+  "venue": "Studies in computational intelligence",
+  "venue_key": "Studies in computational intelligence",
+  "status": "published",
+  "doi": "10.1007/978-3-031-14771-5_10",
+  "arxiv": "2109.14885",
+  "url": "https://doi.org/10.1007/978-3-031-14771-5_10",
+  "openalex": "W3202524615",
+  "selected": false,
+  "id": "10.1007/978-3-031-14771-5_10"
+ },
+ {
+  "title": "Predicting Readmission or Death After Discharge From the ICU: External Validation and Retraining of a Machine Learning Model",
+  "authors": [
+   {
+    "name": "Anne de Hond",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ilse  M.J. Kant",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattia Fornasa",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ewout Willem Steyerberg",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2022,
+  "venue_short": "",
+  "venue": "Critical Care Medicine",
+  "venue_key": "Critical Care Medicine",
+  "status": "published",
+  "doi": "10.1097/ccm.0000000000005758",
+  "arxiv": null,
+  "url": "https://doi.org/10.1097/ccm.0000000000005758",
+  "openalex": "W4311662001",
+  "selected": false,
+  "id": "10.1097/ccm.0000000000005758"
+ },
+ {
+  "title": "Predicting responders to prone positioning in mechanically ventilated patients with COVID-19 using machine learning",
+  "authors": [
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Luca F. Roggeveen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fuda van Diggelen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Lucas M. Fleuren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameet R. Jagesar",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn Otten",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Heder Jonathan de Vries",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Diederik A M P J Gommers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olaf L. Cremer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob J. Bosman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sander Rigter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evert‐Jan Wils",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tim Frenzel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco A. A. Peters",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marlijn J. A. Kamps",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dharmanand Ramnarain",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ralph O. Nowitzky",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleur G. C. A. Nooteboom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Louise C. Urlings‐Strop",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen G. M. Smit",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "D. Jannet Mehagnoul‐Schipper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom P.J. Dormans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis P. C. de Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stefaan H. A. Hendriks",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sefanja Achterberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien A. N. Oostdijk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Auke C. Reidinga",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Barbara Festen‐Spanjer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Gert B. Brunnekreef",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Alexander Daniel Cornet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Walter van den Tempel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Age D. Boelens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter M. Koetsier",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Judith Lens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harald J. Faber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A. Karakus",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert Entjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs C. D. Rettig",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sebastiaan J. J. Vonk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tomas Machado",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Willem Ernst Herter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harm‐Jan de Grooth",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Armand R. J. Girbes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mark Hoogendoorn",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Julia Koeter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roger van Rietschote",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M.C. Reuland",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Laura van Manen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Leon Montenij",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jasper van Bommel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roy van den Berg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen van Geest",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A Hana",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "B. Bogaard",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter Pickkers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Pim van der Heiden",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Claudia van Gemeren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Arend Jan Meinders",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martha de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Emma Rademaker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Frits van Osch",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn de Kruif",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolas Schroten",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Klaas Sierk Arnold",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "JW Fijen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jacomar J. M. van Koesveld",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Koen S. Simons",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joost Labout",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bart van de Gaauw",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michael Kuiper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Albertus Beishuizen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dennis Geutjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Johan Lutisan",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "B H Grady",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko van den Akker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom A. Rijpstra",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wim Boersma",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daniël Pretorius",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Menno Beukema",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bram Simons",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A.A. Rijkeboer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marcel Aries",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels C. Gritters van den Oever",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn van Tellingen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Annemieke Dijkstra",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rutger van Raalte",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ali el Hassouni",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "David Romero Guzman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sandjai Bhulai",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dagmar M. Ouweneel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ronald Driessen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jan Peppink",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "G. J. Zijlstra",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2022,
+  "venue_short": "",
+  "venue": "Annals of Intensive Care",
+  "venue_key": "Annals of Intensive Care",
+  "status": "published",
+  "doi": "10.1186/s13613-022-01070-0",
+  "arxiv": null,
+  "url": "https://doi.org/10.1186/s13613-022-01070-0",
+  "openalex": "W4306880096",
+  "selected": false,
+  "id": "10.1186/s13613-022-01070-0"
+ },
+ {
+  "title": "A pragmatic approach to estimating average treatment effects from EHR data: the effect of prone positioning on mechanically ventilated COVID-19 patients",
+  "authors": [
+   {
+    "name": "Adam Izdebski",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robbert C. A. Lalisang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dean McHugh",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Diederik A M P J Gommers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olaf L. Cremer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob J. Bosman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sander Rigter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evert‐Jan Wils",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tim Frenzel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco Peters",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marlijn J. A. Kamps",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dharmanand Ramnarain",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ralph O. Nowitzky",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleur G. C. A. Nooteboom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Louise C. Urlings‐Strop",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen G. M. Smit",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mehagnoul-Schipper, D. Jannet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom P.J. Dormans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis P. C. de Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stefaan H. A. Hendriks",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sefanja Achterberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien A. N. Oostdijk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Auke C. Reidinga",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Barbara Festen‐Spanjer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Gert B. Brunnekreef",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Alexander Daniel Cornet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tempel, Walter van den",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Age D. Boelens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter M. Koetsier",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Judith Lens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harald J. Faber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ali Karakuş",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert Entjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rettig, Thijs C. D.",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Arbous, Sesmu",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleuren, Lucas M.",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dam, Tariq A.",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tonutti, Michele",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "de Bruin, Daan P.",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2109.06707",
+  "arxiv": "2109.06707",
+  "url": "http://arxiv.org/abs/2109.06707",
+  "openalex": "W3201106371",
+  "selected": false,
+  "id": "10.48550/arxiv.2109.06707"
+ },
+ {
+  "title": "A pragmatic approach to estimating average treatment effects from EHR\\n data: the effect of prone positioning on mechanically ventilated COVID-19\\n patients",
+  "authors": [
+   {
+    "name": "Adam Izdebski",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robbert C. A. Lalisang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dean McHugh",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Diederik Gommers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olaf L. Cremer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob J. Bosman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sander Rigter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evert‐Jan Wils",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tim Frenzel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave A. Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco A. A. Peters",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marlijn J. A Kamps",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dharmanand Ramnarain",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ralph Nowitzky",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleur G. C. A. Nooteboom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Louise C. Urlings‐Strop",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen G. M. Smit",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "D. Jannet Mehagnoul‐Schipper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom Dormans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis P. C. de Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stefaan H. A. Hendriks",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sefanja Achterberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien Oostdijk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Auke C. Reidinga",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Barbara Festen‐Spanjer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Gert B. Brunnekreef",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Alexander D. Cornet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Walter van den Tempel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Age D. Boelens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter Koetsier",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Judith Lens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harald J. Faber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Arife Melike Bulut Karakuş",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert Entjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs C. D. Rettig",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Lucas M. Fleuren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2109.06707",
+  "url": "http://arxiv.org/abs/2109.06707",
+  "openalex": "W4286976645",
+  "selected": false,
+  "id": "2109.06707"
+ },
+ {
+  "title": "Impact of a Machine Learning–Based Decision Support System for Urinary Tract Infections: Prospective Observational Study in 36 Primary Care Practices (Preprint)",
+  "authors": [
+   {
+    "name": "Willem Ernst Herter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Janine Khuc",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Bart J. Knottnerus",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattijs Everard Numans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Maryse A. Wiewel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tobias Nicolaas Bonten",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thamar van Esch",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels Henrik Chavannes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert A. Verheij",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "",
+  "status": "preprint",
+  "doi": "10.2196/preprints.27795",
+  "arxiv": null,
+  "url": "https://doi.org/10.2196/preprints.27795",
+  "openalex": "W4233932533",
+  "selected": false,
+  "id": "10.2196/preprints.27795"
+ },
+ {
+  "title": "Predictors for extubation failure in COVID-19 patients using a machine learning approach",
+  "authors": [
+   {
+    "name": "Lucas M. Fleuren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robbert C. A. Lalisang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Diederik A M P J Gommers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olaf L. Cremer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob J. Bosman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sander Rigter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evert‐Jan Wils",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tim Frenzel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco Peters",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marlijn J. A. Kamps",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dharmanand Ramnarain",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ralph O. Nowitzky",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleur G. C. A. Nooteboom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Louise C. Urlings‐Strop",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen G. M. Smit",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "D. Jannet Mehagnoul‐Schipper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom P.J. Dormans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis P. C. de Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stefaan H. A. Hendriks",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sefanja Achterberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien A. N. Oostdijk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Auke C. Reidinga",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Barbara Festen‐Spanjer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Gert B. Brunnekreef",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Alexander Daniel Cornet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Walter van den Tempel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Age D. Boelens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter M. Koetsier",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Judith Lens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harald J. Faber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A. Karakus",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert Entjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs C. D. Rettig",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sebastiaan J. J. Vonk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattia Fornasa",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tomas Machado",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Taco Houwert",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hidde Hovenkamp",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roberto Noorduijn Londono",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Davide Quintarelli",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn G. Scholtemeijer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Aletta A. de Beer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Adam Kantorik",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Willem Ernst Herter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn Beudel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Armand R. J. Girbes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mark Hoogendoorn",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "the Dutch ICU Data Sharing Against Covid-19 Collaborators",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Julia Koeter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roger van Rietschote",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Merijn C. Reuland",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Laura van Manen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Leon J. Montenij",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jasper van Bommel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roy van den Berg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen van Geest",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Anisa Hana",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bas van den Bogaard",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter Pickkers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Pim van der Heiden",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Claudia van Gemeren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Arend Jan Meinders",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martha de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Emma Rademaker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Frits van Osch",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn D. de Kruif",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolas F. Schroten",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Klaas Sierk Arnold",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jan Willem Fijen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jacomar J. M. van Koesveld",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Koen S. Simons",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joost A. M. Labout",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bart van de Gaauw",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michael A. Kuiper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Albertus Beishuizen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dennis Geutjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Johan Lutisan",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bart P. X. Grady",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko van den Akker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom A. Rijpstra",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wim G. Boersma",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daniël Pretorius",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Menno Beukema",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bram Simons",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A. A. Rijkeboer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marcel J H Ariës",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels C. Gritters van den Oever",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn van Tellingen",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "Critical Care",
+  "venue_key": "Critical Care",
+  "status": "published",
+  "doi": "10.1186/s13054-021-03864-3",
+  "arxiv": null,
+  "url": "https://doi.org/10.1186/s13054-021-03864-3",
+  "openalex": "W4200325438",
+  "selected": false,
+  "id": "10.1186/s13054-021-03864-3"
+ },
+ {
+  "title": "Risk factors for adverse outcomes during mechanical ventilation of 1152 COVID-19 patients: a multicenter machine learning study with highly granular data from the Dutch Data Warehouse",
+  "authors": [
+   {
+    "name": "Lucas M. Fleuren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robbert C. A. Lalisang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Diederik A M P J Gommers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olaf L. Cremer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob J. Bosman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sebastiaan J. J. Vonk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattia Fornasa",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tomas Machado",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nardo J. M. van der Meer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sander Rigter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evert‐Jan Wils",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tim Frenzel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco Peters",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marlijn J. A. Kamps",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dharmanand Ramnarain",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ralph O. Nowitzky",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleur G. C. A. Nooteboom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Louise C. Urlings‐Strop",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen G. M. Smit",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "D. Jannet Mehagnoul‐Schipper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom P.J. Dormans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis P. C. de Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stefaan H. A. Hendriks",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien A. N. Oostdijk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Auke C. Reidinga",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Barbara Festen‐Spanjer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Gert B. Brunnekreef",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Alexander Daniel Cornet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Walter van den Tempel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Age D. Boelens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter M. Koetsier",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Judith Lens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sefanja Achterberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harald J. Faber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ali Karakuş",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Menno Beukema",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert Entjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Taco Houwert",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hidde Hovenkamp",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roberto Noorduijn Londono",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Davide Quintarelli",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn G. Scholtemeijer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Aletta A. de Beer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Martijn Beudel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolet F. de Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mark Hoogendoorn",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Armand R. J. Girbes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Willem Ernst Herter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dutch ICU Data Sharing Against COVID-19 Collaborators",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs C. D. Rettig",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Merijn C. Reuland",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Laura van Manen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Leon J. Montenij",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jasper van Bommel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roy van den Berg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen van Geest",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Anisa Hana",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wim G. Boersma",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bas van den Bogaard",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter Pickkers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Pim van der Heiden",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Claudia C. W. van Gemeren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Arend Jan Meinders",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martha de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Emma Rademaker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Frits van Osch",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn D. de Kruif",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolas F. Schroten",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Klaas Sierk Arnold",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jan Willem Fijen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jacomar J. M. van Koesveld",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Koen S. Simons",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joost A. M. Labout",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bart van de Gaauw",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michael A. Kuiper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Albertus Beishuizen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dennis Geutjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Johan Lutisan",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bart P. X. Grady",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko van den Akker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Bram Simons",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A. A. Rijkeboer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marcel J H Ariës",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Niels C. Gritters van den Oever",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn van Tellingen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Annemieke Dijkstra",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rutger van Raalte",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Luca F. Roggeveen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fuda van Diggelen",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "Intensive Care Medicine Experimental",
+  "venue_key": "Intensive Care Medicine Experimental",
+  "status": "published",
+  "doi": "10.1186/s40635-021-00397-5",
+  "arxiv": null,
+  "url": "https://doi.org/10.1186/s40635-021-00397-5",
+  "openalex": "W3173461493",
+  "selected": false,
+  "id": "10.1186/s40635-021-00397-5"
+ },
+ {
+  "title": "The Dutch Data Warehouse, a multicenter and full-admission electronic health records database for critically ill COVID-19 patients",
+  "authors": [
+   {
+    "name": "Lucas M. Fleuren",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tariq A. Dam",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daan P. de Bruin",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robbert C. A. Lalisang",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Diederik A M P J Gommers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olaf L. Cremer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Rob J. Bosman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sander Rigter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evert‐Jan Wils",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tim Frenzel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Remko de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marco Peters",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marlijn J. A. Kamps",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dharmanand Ramnarain",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ralph O. Nowitzky",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Fleur G. C. A. Nooteboom",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wouter de Ruijter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Louise C. Urlings‐Strop",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ellen G. M. Smit",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "D. Jannet Mehagnoul‐Schipper",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tom P.J. Dormans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis P. C. de Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stefaan H. A. Hendriks",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sefanja Achterberg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien A. N. Oostdijk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Auke C. Reidinga",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Barbara Festen‐Spanjer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Gert B. Brunnekreef",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Alexander Daniel Cornet",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Walter van den Tempel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Age D. Boelens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Peter M. Koetsier",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Judith Lens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Harald J. Faber",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "A. Karakus",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Robert Entjes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Thijs C. D. Rettig",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "M. Sesmu Arbous",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sebastiaan J. J. Vonk",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattia Fornasa",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tomas Machado",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Taco Houwert",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hidde Hovenkamp",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Roberto Noorduijn-Londono",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Davide Quintarelli",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn G. Scholtemeijer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Aletta A. de Beer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Martijn Beudel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Willem Ernst Herter",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Armand R. J. Girbes",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mark Hoogendoorn",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "Critical Care",
+  "venue_key": "Critical Care",
+  "status": "published",
+  "doi": "10.1186/s13054-021-03733-z",
+  "arxiv": null,
+  "url": "https://doi.org/10.1186/s13054-021-03733-z",
+  "openalex": "W3193317636",
+  "selected": false,
+  "id": "10.1186/s13054-021-03733-z"
+ },
+ {
+  "title": "The Potential Cost-Effectiveness of a Machine Learning Tool That Can Prevent Untimely Intensive Care Unit Discharge",
+  "authors": [
+   {
+    "name": "Juliette de Vos",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Laurenske A. Visser",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Aletta A. de Beer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mattia Fornasa",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Patrick  J. Thoral",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "Value in Health",
+  "venue_key": "Value in Health",
+  "status": "published",
+  "doi": "10.1016/j.jval.2021.06.018",
+  "arxiv": null,
+  "url": "https://doi.org/10.1016/j.jval.2021.06.018",
+  "openalex": "W3210230840",
+  "selected": false,
+  "id": "10.1016/j.jval.2021.06.018"
+ },
+ {
+  "title": "Know Your Limits: Monotonicity & Softmax Make Neural Classifiers Overconfident on OOD Data",
+  "authors": [
+   {
+    "name": "Dennis Ulmer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2012.05329",
+  "url": "https://arxiv.org/abs/2012.05329",
+  "openalex": "W3111327898",
+  "selected": false,
+  "id": "2012.05329"
+ },
+ {
+  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at Reliable OOD Detection",
+  "authors": [
+   {
+    "name": "Dennis Ulmer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "IT University Of Copenhagen (IT University of Copenhagen)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2012.05329",
+  "arxiv": "2012.05329",
+  "url": "https://pure.itu.dk/portal/da/publications/b80af5a9-b1ae-45c4-b002-93bdd1b99f5b",
+  "openalex": "W3134514250",
+  "selected": false,
+  "id": "10.48550/arxiv.2012.05329"
+ },
+ {
+  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at\\n Reliable OOD Detection",
+  "authors": [
+   {
+    "name": "Dennis Ulmer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2012.05329",
+  "url": "http://arxiv.org/abs/2012.05329",
+  "openalex": "W4287554837",
+  "selected": false,
+  "id": "2012.05329"
+ },
+ {
+  "title": "Subordinazione ed etero-organizzazione: rider e \"debolezza economica\" in una prospettiva comparata",
+  "authors": [
+   {
+    "name": "Andrea Sitzia",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "La Nuova giurisprudenza civile commentata",
+  "venue_key": "La Nuova giurisprudenza civile commentata",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7961111",
+  "openalex": "W3184409233",
+  "selected": false,
+  "id": "W3184409233"
+ },
+ {
+  "title": "Trust Issues: Uncertainty Estimation Does Not Enable Reliable OOD Detection On Medical Tabular Data",
+  "authors": [
+   {
+    "name": "Dennis Ulmer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Lotta Meijerink",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "",
+  "status": "published",
+  "doi": "10.48550/arxiv.2011.03274",
+  "arxiv": "2011.03274",
+  "url": "http://proceedings.mlr.press/v136/ulmer20a/ulmer20a.pdf",
+  "openalex": "W3204297249",
+  "selected": false,
+  "id": "10.48550/arxiv.2011.03274"
+ },
+ {
+  "title": "Uncertainty estimation for classification and risk prediction in medical settings",
+  "authors": [
+   {
+    "name": "Lotta Meijerink",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2004.05824",
+  "url": "https://arxiv.org/abs/2004.05824",
+  "openalex": "W3015984827",
+  "selected": false,
+  "id": "2004.05824"
+ },
+ {
+  "title": "Uncertainty estimation for classification and risk prediction on medical tabular data",
+  "authors": [
+   {
+    "name": "Lotta Meijerink",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.2004.05824",
+  "arxiv": "2004.05824",
+  "url": "http://arxiv.org/abs/2004.05824",
+  "openalex": "W3028279294",
+  "selected": false,
+  "id": "10.48550/arxiv.2004.05824"
+ },
+ {
+  "title": "Uncertainty estimation for classification and risk prediction on medical\\n tabular data",
+  "authors": [
+   {
+    "name": "Lotta Meijerink",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2004.05824",
+  "url": "http://arxiv.org/abs/2004.05824",
+  "openalex": "W4287815566",
+  "selected": false,
+  "id": "2004.05824"
+ },
+ {
+  "title": "Bayesian Modelling in Practice: Using Uncertainty to Improve Trustworthiness in Medical Applications",
+  "authors": [
+   {
+    "name": "David Ruhe",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "de Bruin, Daan",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Elbers",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2019,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": "10.48550/arxiv.1906.08619",
+  "arxiv": "1906.08619",
+  "url": "http://arxiv.org/abs/1906.08619",
+  "openalex": "W2949812058",
+  "selected": false,
+  "id": "10.48550/arxiv.1906.08619"
+ },
+ {
+  "title": "Principio di autodeterminazione e tutela della salute nel diritto privato regionale",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2018,
+  "venue_short": "",
+  "venue": "La Nuova giurisprudenza civile commentata",
+  "venue_key": "La Nuova giurisprudenza civile commentata",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6391322",
+  "openalex": "W2852426605",
+  "selected": false,
+  "id": "W2852426605"
+ },
+ {
+  "title": "A Characterization Theorem for Trackable Updates",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2017,
+  "venue_short": "",
+  "venue": "Lecture notes in computer science",
+  "venue_key": "Lecture notes in computer science",
+  "status": "published",
+  "doi": "10.1007/978-3-662-55665-8_7",
+  "arxiv": null,
+  "url": "https://doi.org/10.1007/978-3-662-55665-8_7",
+  "openalex": "W2746079624",
+  "selected": false,
+  "id": "10.1007/978-3-662-55665-8_7"
+ },
+ {
+  "title": "Bisimulation for Conditional Modalities",
+  "authors": [
+   {
+    "name": "Alexandru Baltag",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2017,
+  "venue_short": "",
+  "venue": "Studia Logica",
+  "venue_key": "Studia Logica",
+  "status": "published",
+  "doi": "10.1007/s11225-017-9723-2",
+  "arxiv": null,
+  "url": "https://doi.org/10.1007/s11225-017-9723-2",
+  "openalex": "W2612833251",
+  "selected": false,
+  "id": "10.1007/s11225-017-9723-2"
+ },
+ {
+  "title": "Categories for the working modal logician",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2017,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "Data Archiving and Networked Services (DANS)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": null,
+  "url": "https://dare.uva.nl/personal/pure/en/publications/categories-for-the-working-modal-logician(4331b708-f95f-4929-b4dd-6d6707162bfb).html",
+  "openalex": "W2626985052",
+  "selected": false,
+  "id": "W2626985052"
+ },
+ {
+  "title": "Il diritto privato tra Stato e Regioni: riflessioni comparatistiche",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2017,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": "http://paduaresearch.cab.unipd.it/9997/",
+  "openalex": "W2768998673",
+  "selected": false,
+  "id": "W2768998673"
+ },
+ {
+  "title": "Bisimulation and path logic for sheaves: contextuality and beyond",
+  "authors": [],
+  "year": 2016,
+  "venue_short": "",
+  "venue": "ILLC Technical Reports",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": null,
+  "venue_key": "",
+  "openalex": null,
+  "selected": false,
+  "id": "bisimulationandpathlogicforsheavescontex"
+ },
+ {
+  "title": "Bisimulation for conditional modalities (extended version)",
+  "authors": [],
+  "year": 2016,
+  "venue_short": "",
+  "venue": "ILLC Technical Reports",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": null,
+  "venue_key": "",
+  "openalex": null,
+  "selected": false,
+  "id": "bisimulationforconditionalmodalitiesexte"
+ },
+ {
+  "title": "MIXING CATEGORIES AND MODAL LOGICS IN THE QUANTUM SETTING",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2016,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "",
+  "status": "published",
+  "doi": "10.1142/9789813146280_0003",
+  "arxiv": null,
+  "url": "https://doi.org/10.1142/9789813146280_0003",
+  "openalex": "W2496868626",
+  "selected": false,
+  "id": "10.1142/9789813146280_0003"
+ },
+ {
+  "title": "Proving classical theorems of social choice theory in modal logic",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Ulle Endriss",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2016,
+  "venue_short": "",
+  "venue": "Autonomous Agents and Multi-Agent Systems",
+  "venue_key": "Autonomous Agents and Multi-Agent Systems",
+  "status": "published",
+  "doi": "10.1007/s10458-016-9328-6",
+  "arxiv": null,
+  "url": "https://doi.org/10.1007/s10458-016-9328-6",
+  "openalex": "W2285416762",
+  "selected": false,
+  "id": "10.1007/s10458-016-9328-6"
+ },
+ {
+  "title": "A Syntactic Proof of Arrow's Theorem in a Modal Logic of Social Choice Functions",
+  "authors": [],
+  "year": 2015,
+  "venue_short": "",
+  "venue": "AAMAS '15",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": null,
+  "venue_key": "",
+  "openalex": null,
+  "selected": false,
+  "id": "asyntacticproofofarrowstheoreminamodallo"
+ },
+ {
+  "title": "Bisimulation and path logic for sheaves",
+  "authors": [],
+  "year": 2015,
+  "venue_short": "",
+  "venue": "Proceedings of TACL 2015",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": null,
+  "venue_key": "",
+  "openalex": null,
+  "selected": false,
+  "id": "bisimulationandpathlogicforsheaves"
+ },
+ {
+  "title": "A Formal Analysis of the Best System Account of Lawhood",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2014,
+  "venue_short": "",
+  "venue": "UvA-DARE (University of Amsterdam)",
+  "venue_key": "UvA-DARE (University of Amsterdam)",
+  "status": "published",
+  "doi": "10.13130/2037-4445/4010",
+  "arxiv": null,
+  "url": "https://doi.org/10.13130/2037-4445/4010",
+  "openalex": "W1604095463",
+  "selected": false,
+  "id": "10.13130/2037-4445/4010"
+ },
+ {
+  "title": "Connecting the Categorical and the Modal Logic Approaches to Quantum Mechanics",
+  "authors": [],
+  "year": 2014,
+  "venue_short": "",
+  "venue": "Proceedings of ESSLLI 2014 Student Session",
+  "status": "published",
+  "doi": null,
+  "arxiv": null,
+  "url": null,
+  "venue_key": "",
+  "openalex": null,
+  "selected": false,
+  "id": "connectingthecategoricalandthemodallogic"
+ },
+ {
+  "title": "On the connection between the categorical and the modallogic approaches to Quantum Mechanics",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2013,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "PhilSci-Archive (University of Pittsburgh)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": null,
+  "url": "http://philsci-archive.pitt.edu/9908/1/versione_completa_draft.pdf",
+  "openalex": "W2123837272",
+  "selected": false,
+  "id": "W2123837272"
+ },
+ {
+  "title": "In risposta a: \"L'argomento della Crisi Sistemica\"",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2012,
+  "venue_short": "",
+  "venue": "Riviste UNIMI (Università degli studi di Milano)",
+  "venue_key": "Riviste UNIMI (Università degli studi di Milano)",
+  "status": "published",
+  "doi": "10.13130/2037-4445/2161",
+  "arxiv": null,
+  "url": "https://doi.org/10.13130/2037-4445/2161",
+  "openalex": "W21637503",
+  "selected": false,
+  "id": "10.13130/2037-4445/2161"
+ },
+ {
+  "title": "L'Argomento della Crisi Sistemica",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2011,
+  "venue_short": "",
+  "venue": "Riviste UNIMI (Università degli studi di Milano)",
+  "venue_key": "Riviste UNIMI (Università degli studi di Milano)",
+  "status": "published",
+  "doi": "10.13130/2037-4445/1484",
+  "arxiv": null,
+  "url": "https://doi.org/10.13130/2037-4445/1484",
+  "openalex": "W1546090173",
+  "selected": false,
+  "id": "10.13130/2037-4445/1484"
+ },
+ {
+  "title": "Rassegna Individuo e Società [Università Vita-Salute S. Raffaele & Teatro Parenti di Milano]",
+  "authors": [
+   {
+    "name": "Flavio Basso",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2011,
+  "venue_short": "",
+  "venue": "Riviste UNIMI (Università degli studi di Milano)",
+  "venue_key": "Riviste UNIMI (Università degli studi di Milano)",
+  "status": "published",
+  "doi": "10.13130/2037-4445/1469",
+  "arxiv": null,
+  "url": "https://doi.org/10.13130/2037-4445/1469",
+  "openalex": "W1704535450",
+  "selected": false,
+  "id": "10.13130/2037-4445/1469"
+ },
+ {
+  "title": "Steven Vickers - Topology via Logic",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2011,
+  "venue_short": "",
+  "venue": "Riviste UNIMI (Università degli studi di Milano)",
+  "venue_key": "Riviste UNIMI (Università degli studi di Milano)",
+  "status": "published",
+  "doi": "10.13130/2037-4445/1480",
+  "arxiv": null,
+  "url": "https://doi.org/10.13130/2037-4445/1480",
+  "openalex": "W76027790",
+  "selected": false,
+  "id": "10.13130/2037-4445/1480"
+ },
+ {
+  "title": "Studio diagnostico sul soffitto ligneo dipinto della cattedrale di Nicosia (EN)",
+  "authors": [
+   {
+    "name": "Fernanda Prestileo",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Bruno",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Daniel Perrone",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Maria Francesca Alberghina",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sophie Schiavone",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "CAROTI STEFANO",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Marcus Tullius CICERO",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2008,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "Nova Science Publishers (Nova Science Publishers, Inc.)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": null,
+  "url": "http://hdl.handle.net/10447/40918",
+  "openalex": "W2966608659",
+  "selected": false,
+  "id": "W2966608659"
+ }
+]
