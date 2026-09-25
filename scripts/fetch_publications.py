@@ -1,11 +1,18 @@
 #!/usr/bin/env python3
-"""Build _data/publications.json from DBLP (primary) and ORCID (supplement).
+"""Build _data/publications.json from OpenAlex (primary) and ORCID (supplement).
 
 Pipeline:
-  1. Fetch the DBLP person record (XML) and the ORCID works list (JSON).
-  2. Merge DBLP preprints (CoRR) into their published versions.
-  3. Add ORCID works that DBLP lacks; complete their metadata via the DOI.
+  1. Fetch your works from OpenAlex (linked to you via your ORCID iD) and
+     your works list from ORCID.
+  2. Merge each preprint into its published version (same title).
+  3. Add ORCID works that OpenAlex lacks; complete their metadata via the DOI.
   4. Append _data/manual.yml, apply _data/overrides.yml, sort, write.
+
+DBLP is not used: its servers block automated requests with a bot check.
+
+Set the environment variable OPENALEX_API_KEY (a free key from
+https://openalex.org/settings/api) for reliable access; in GitHub, store it
+as a repository secret with that name.
 
 Never writes a partial result: if a source fails, or the publication count
 drops by more than MAX_DROP, the script exits non-zero and leaves the
@@ -14,13 +21,14 @@ existing file untouched. Use --force to override the drop check.
 
 import gzip
 import json
+import os
 import re
 import sys
 import time
 import unicodedata
 import urllib.error
+import urllib.parse
 import urllib.request
-import xml.etree.ElementTree as ET
 from pathlib import Path
 
 import yaml
@@ -28,25 +36,12 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "_data" / "publications.json"
 MAX_DROP = 0.2
-USER_AGENT = "academic-site-publication-sync/1.0 (+https://orcid.org)"
+USER_AGENT = "academic-site-publication-sync/1.1"
 
-# DBLP gives abbreviations only; unknown venues are shown as DBLP writes them.
-# Add or correct names under `venues:` in _data/overrides.yml.
-VENUE_NAMES = {
-    "AAAI": "AAAI Conference on Artificial Intelligence",
-    "AISTATS": "International Conference on Artificial Intelligence and Statistics",
-    "CHIL": "Conference on Health, Inference, and Learning",
-    "CLeaR": "Conference on Causal Learning and Reasoning",
-    "ICLR": "International Conference on Learning Representations",
-    "ICML": "International Conference on Machine Learning",
-    "IJCAI": "International Joint Conference on Artificial Intelligence",
-    "ML4H@NeurIPS": "Machine Learning for Health Symposium",
-    "NeurIPS": "Advances in Neural Information Processing Systems",
-    "Trans. Mach. Learn. Res.": "Transactions on Machine Learning Research",
-    "UAI": "Conference on Uncertainty in Artificial Intelligence",
-}
-# Journals get a short label only when the community uses one.
-JOURNAL_SHORT = {"Trans. Mach. Learn. Res.": "TMLR", "J. Mach. Learn. Res.": "JMLR"}
+# OpenAlex work types that are not publications in their own right.
+SKIP_TYPES = {"paratext", "erratum", "peer-review", "retraction", "supplementary-materials", "dataset"}
+# Venues that host preprints rather than publish them.
+PREPRINT_SERVERS = re.compile(r"arxiv|medrxiv|biorxiv|ssrn|research ?square|preprints\.org|techrxiv|openreview", re.I)
 
 
 # --------------------------------------------------------------------------
@@ -101,69 +96,81 @@ def doi_from(url):
 
 
 # --------------------------------------------------------------------------
-# DBLP
+# OpenAlex
 
-DBLP_HOSTS = ("https://dblp.org", "https://dblp.uni-trier.de", "https://dblp.dagstuhl.de")
-
-
-def fetch_dblp(pid):
-    """Try the main DBLP site, then its official mirrors; return the first valid XML."""
-    problems = []
-    for host in DBLP_HOSTS:
-        url = f"{host}/pid/{pid}.xml"
+def fetch_openalex(orcid):
+    params = {"filter": f"author.orcid:{orcid}", "per_page": "200", "cursor": "*"}
+    key = os.environ.get("OPENALEX_API_KEY", "").strip()
+    if key:
+        params["api_key"] = key
+    works = []
+    while True:
+        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
         try:
-            body = http_get(url, "application/xml, text/xml;q=0.9")
-        except Exception as e:
-            problems.append(f"{url}: {e}")
-            continue
+            body = http_get(url, "application/json")
+        except urllib.error.HTTPError as e:
+            hint = "" if key else " Add a free API key as the OPENALEX_API_KEY secret."
+            raise RuntimeError(f"OpenAlex unavailable: HTTP {e.code}.{hint}") from None
         try:
-            root = ET.fromstring(body)
-        except ET.ParseError as e:
+            data = json.loads(body)
+        except json.JSONDecodeError as e:
             start = body[:200].decode("utf-8", "replace").replace("\n", " ")
-            problems.append(f"{url}: not XML ({e}); response began: {start!r}")
-            continue
-        if root.tag != "dblpperson":
-            problems.append(f"{url}: unexpected XML root <{root.tag}>")
-            continue
-        return body
-    raise RuntimeError("DBLP unavailable:\n  " + "\n  ".join(problems))
+            raise RuntimeError(f"OpenAlex unavailable: not JSON ({e}); response began: {start!r}")
+        works += data.get("results", [])
+        cursor = (data.get("meta") or {}).get("next_cursor")
+        if not cursor or not data.get("results"):
+            return works
+        params["cursor"] = cursor
 
 
-def parse_dblp(xml_bytes, pid, self_name):
-    root = ET.fromstring(xml_bytes)
+def strip_tags(t):
+    return re.sub(r"<[^>]+>", "", t or "")
+
+
+def parse_openalex(works, orcid, self_name, self_variants):
     pubs = []
-    for r in root.findall("r"):
-        e = r[0]
+    for w in works:
+        if w.get("is_paratext") or w.get("type") in SKIP_TYPES:
+            continue
+        title = clean_title(strip_tags(w.get("display_name") or w.get("title")))
+        if not title:
+            continue
         authors = []
-        for a in e.findall("author") + e.findall("editor"):
-            name = re.sub(r"\s\d{4}$", "", a.text or "")  # strip DBLP homonym suffix
-            is_self = a.get("pid") == pid
+        for a in w.get("authorships") or []:
+            au = a.get("author") or {}
+            name = au.get("display_name") or a.get("raw_author_name") or ""
+            is_self = (au.get("orcid") or "").endswith(orcid) or fold(name) in self_variants
             authors.append({"name": self_name if is_self else name, "self": is_self})
-        raw_venue = (e.findtext("booktitle") or e.findtext("journal") or "").strip()
-        informal = raw_venue == "CoRR" or e.get("publtype") == "informal"
-        if informal:
-            venue_short = "arXiv"
-        elif e.tag == "article":
-            venue_short = JOURNAL_SHORT.get(raw_venue, "")
-        else:
-            venue_short = raw_venue
-        ees = [x.text or "" for x in e.findall("ee")]
-        arxiv = arxiv_from(e.findtext("volume")) if raw_venue == "CoRR" else None
-        arxiv = arxiv or next((arxiv_from(u) for u in ees if "arxiv" in u.lower()), None)
-        doi = next((d for d in map(doi_from, ees) if d), None)
-        url = next((u for u in ees if "arxiv" not in u.lower()), None) or (ees[0] if ees else None)
+
+        doi = (w.get("doi") or "").lower().replace("https://doi.org/", "") or None
+        arxiv = None
+        for loc in w.get("locations") or []:
+            for u in (loc.get("landing_page_url"), loc.get("pdf_url")):
+                if u and "arxiv.org" in u:
+                    arxiv = arxiv or arxiv_from(u)
+        if doi and doi.startswith("10.48550/arxiv."):  # the arXiv DOI itself
+            arxiv, doi = arxiv or arxiv_from(doi), None
+
+        loc = w.get("primary_location") or {}
+        source = loc.get("source") or {}
+        venue = source.get("display_name") or ""
+        preprint = w.get("type") == "preprint" or (
+            not doi and (source.get("type") == "repository" or bool(PREPRINT_SERVERS.search(venue))))
+        url = (f"https://doi.org/{doi}" if doi else None) or loc.get("landing_page_url") \
+            or (f"https://arxiv.org/abs/{arxiv}" if arxiv else None)
+
         pubs.append({
-            "title": clean_title("".join(e.find("title").itertext())),
+            "title": title,
             "authors": authors,
-            "year": int(e.findtext("year") or 0),
-            "venue_short": venue_short,
-            "venue": "" if informal else VENUE_NAMES.get(raw_venue, raw_venue),
-            "venue_key": raw_venue,
-            "status": "preprint" if informal else "published",
+            "year": int(w.get("publication_year") or 0),
+            "venue_short": "",
+            "venue": "" if preprint else venue,
+            "venue_key": venue,
+            "status": "preprint" if preprint else "published",
             "doi": doi,
             "arxiv": arxiv,
             "url": url,
-            "dblp": e.get("key"),
+            "openalex": (w.get("id") or "").rsplit("/", 1)[-1] or None,
         })
     return pubs
 
@@ -246,7 +253,7 @@ def authors_from_csl(csl, self_variants, self_name):
 # Merge, overrides, output
 
 def identifiers(p):
-    return {x for x in (p.get("doi"), p.get("arxiv"), p.get("dblp")) if x}
+    return {x for x in (p.get("doi"), p.get("arxiv"), p.get("openalex")) if x}
 
 
 def find_match(pubs, w):
@@ -285,8 +292,8 @@ def add_orcid_works(pubs, works, self_variants, self_name, resolve=fetch_csl):
             "arxiv": w["arxiv"],
             "url": f"https://doi.org/{w['doi']}" if w["doi"]
                    else f"https://arxiv.org/abs/{w['arxiv']}" if w["arxiv"] else None,
-            "dblp": None,
             "venue_key": "",
+            "openalex": None,
         })
         added += 1
     return added
@@ -329,13 +336,14 @@ def main():
     self_variants = {fold(n) for n in [self_name, *cfg.get("name_variants", [])]}
 
     try:
-        print(f"Fetching DBLP {cfg['dblp']}")
-        pubs = merge_preprints(parse_dblp(fetch_dblp(cfg["dblp"]), cfg["dblp"], self_name))
-        print(f"  {len(pubs)} entries after merging preprints")
+        print(f"Fetching OpenAlex works for ORCID {cfg['orcid']}")
+        works = fetch_openalex(cfg["orcid"])
+        pubs = merge_preprints(parse_openalex(works, cfg["orcid"], self_name, self_variants))
+        print(f"  {len(works)} works, {len(pubs)} after merging preprints")
         print(f"Fetching ORCID {cfg['orcid']}")
         works = parse_orcid(fetch_orcid(cfg["orcid"]))
         added = add_orcid_works(pubs, works, self_variants, self_name)
-        print(f"  {len(works)} works, {added} not in DBLP")
+        print(f"  {len(works)} works, {added} not in OpenAlex")
     except Exception as e:
         print(f"error: {e}\nKeeping the existing publication list.", file=sys.stderr)
         return 1
@@ -350,7 +358,7 @@ def main():
     pubs = apply_overrides(pubs, load_yaml("overrides.yml"), self_name)
     pubs.sort(key=lambda p: (-int(p.get("year") or 0), p["title"].casefold()))
     for p in pubs:
-        p["id"] = p.get("doi") or p.get("arxiv") or p.get("dblp") or norm_title(p["title"])[:40]
+        p["id"] = p.get("doi") or p.get("arxiv") or p.get("openalex") or norm_title(p["title"])[:40]
 
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else []
     if old and len(pubs) < (1 - MAX_DROP) * len(old) and not force:
