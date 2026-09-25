@@ -1,21 +1,26 @@
 # Corrections and additions for automatically fetched publications.
-# Key each paper by its DOI, arXiv ID, or DBLP key (the `id` field in
+# Key each paper by its DOI, arXiv ID, or OpenAlex ID (the `id` field in
 # _data/publications.json shows which one to use).
 #
 # Available fields:
-#   selected: true              show on the homepage
+#   selected: true              (reserved for a future "selected papers" list)
 #   hide: true                  remove from the site
 #   code / slides / project     extra links
 #   status: accepted            e.g. for an accepted paper still listed as a preprint
 #   venue / venue_short / title correct fetched metadata
 #   note: "Oral presentation"   short remark after the venue
 #   equal_contribution: [Name One, Name Two]
+#
+# OpenAlex lists all PMLR papers (ICML, AISTATS, CHIL, UAI, CLeaR, ...) under
+# "Proceedings of Machine Learning Research"; set their venue here, per paper.
 
 papers: {}
-#  "2405.12658":
-#    selected: true
+#  "10.1234/example.doi":
+#    venue: Conference on Health, Inference, and Learning
+#    venue_short: CHIL
 #    code: https://github.com/...
 
-# Full names for venue abbreviations the script doesn't know.
+# Rename a venue everywhere it occurs, keyed by the name OpenAlex uses.
+# Only for venue names that are unambiguous (not for PMLR, see above).
 venues: {}
-#  "ML4H": "Machine Learning for Health Symposium"
+#  "Critical care medicine": "Critical Care Medicine"
