@@ -38,6 +38,12 @@ jobs:
           pip install --quiet pyyaml
           python scripts/fetch_publications.py
 
+      - name: Warn if publications were not updated
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::warning title=Publications not updated::Fetching from DBLP or ORCID failed, so the site was deployed with the previous publication list. See the 'Fetch publications' step for details."
+          echo "**Publications not updated.** Fetching from DBLP or ORCID failed; see the *Fetch publications* step for details." >> "$GITHUB_STEP_SUMMARY"
+
       - name: Commit publication list
         if: steps.fetch.outcome == 'success'
         run: |
