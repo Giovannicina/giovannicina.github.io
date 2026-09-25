@@ -13,7 +13,7 @@ author:
     - unit: Institute for Logic, Language and Computation
       institution: University of Amsterdam
   email: ""          # e.g. name@amsterdamumc.nl; leave empty to hide
-  photo: ""          # e.g. /assets/photo.jpg; shown on the homepage only
+  photo: /assets/Foto_GC.jpg          # e.g. /assets/photo.jpg; shown on the homepage only
 
 # Profile links, shown in the footer in this order. Remove any you don't want.
 links:
