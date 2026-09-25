@@ -78,6 +78,7 @@ def norm_title(t):
 
 
 def clean_title(t):
+    t = t.replace("\\n", " ")  # literal backslash-n left in some arXiv titles
     t = re.sub(r"\s+", " ", t).strip()
     return t[:-1] if t.endswith(".") else t
 
@@ -176,20 +177,35 @@ def parse_openalex(works, orcid, self_name, self_variants):
 
 
 def merge_preprints(pubs):
-    """Fold each CoRR entry into the published entry with the same title."""
+    """Merge entries for the same paper: same arXiv ID or same normalized title.
+    The published version (latest year) is kept; identifiers are pooled."""
+    parent = list(range(len(pubs)))
+
+    def find(i):
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    first = {}
+    for i, p in enumerate(pubs):
+        for key in (p.get("arxiv"), "t:" + norm_title(p["title"])):
+            if key and key != "t:":
+                if key in first:
+                    parent[find(i)] = find(first[key])
+                else:
+                    first[key] = i
     groups = {}
-    for p in pubs:
-        groups.setdefault(norm_title(p["title"]), []).append(p)
+    for i, p in enumerate(pubs):
+        groups.setdefault(find(i), []).append(p)
+
     merged = []
     for group in groups.values():
         formal = [p for p in group if p["status"] == "published"]
-        if not formal:
-            merged.append(max(group, key=lambda p: p["year"]))
-            continue
-        main = max(formal, key=lambda p: p["year"])
+        main = max(formal or group, key=lambda p: (p["year"], len(p["authors"])))
         for p in group:
-            main["arxiv"] = main["arxiv"] or p["arxiv"]
-            main["doi"] = main["doi"] or p["doi"]
+            for k in ("arxiv", "doi", "openalex"):
+                main[k] = main.get(k) or p.get(k)
         merged.append(main)
     return merged
 
@@ -301,20 +317,26 @@ def add_orcid_works(pubs, works, self_variants, self_name, resolve=fetch_csl):
 
 def apply_overrides(pubs, overrides, self_name):
     venues = overrides.get("venues") or {}
-    by_key = overrides.get("papers") or {}
+    by_key = {}
+    for k, v in (overrides.get("papers") or {}).items():
+        by_key[str(k).lower()] = v
+        by_key["t:" + norm_title(str(k))] = v  # papers may also be keyed by title
     result = []
     for p in pubs:
         for key in (p.get("venue_key"), p.get("venue_short")):
             if key and key in venues:
                 p["venue"] = venues[key]
         o = {}
-        for key in identifiers(p):
-            o.update(by_key.get(key) or {})
+        for key in [*identifiers(p), "t:" + norm_title(p["title"])]:
+            o.update(by_key.get(key.lower() if not key.startswith("t:") else key) or {})
         if o.get("hide"):
             continue
-        for field in ("title", "venue", "venue_short", "status", "code", "slides", "project", "note", "url"):
+        for field in ("title", "venue", "venue_short", "status", "code", "slides", "project", "note", "url", "year"):
             if field in o:
                 p[field] = o[field]
+        if "authors" in o:
+            p["authors"] = [{"name": self_name if fold(n) == fold(self_name) else n,
+                             "self": fold(n) == fold(self_name)} for n in o["authors"]]
         p["selected"] = bool(o.get("selected"))
         equal = {fold(n) for n in o.get("equal_contribution", [])}
         for a in p["authors"]:
@@ -351,6 +373,10 @@ def main():
     manual = load_yaml("manual.yml")
     for m in manual if isinstance(manual, list) else []:
         m.setdefault("status", "preprint")
+        for k in ("doi", "arxiv", "url", "openalex"):
+            m.setdefault(k, None)
+        m.setdefault("venue", "")
+        m.setdefault("venue_short", "")
         m["authors"] = [{"name": self_name if fold(n) in self_variants else n,
                          "self": fold(n) in self_variants} for n in m.get("authors", [])]
         pubs.append(m)

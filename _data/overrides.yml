@@ -14,11 +14,55 @@
 # OpenAlex lists all PMLR papers (ICML, AISTATS, CHIL, UAI, CLeaR, ...) under
 # "Proceedings of Machine Learning Research"; set their venue here, per paper.
 
-papers: {}
-#  "10.1234/example.doi":
-#    venue: Conference on Health, Inference, and Learning
-#    venue_short: CHIL
-#    code: https://github.com/...
+papers:
+  # --- Conference versions OpenAlex lists only as arXiv preprints (PMLR has no DOIs)
+  "2012.05329":
+    title: "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at Reliable OOD Detection"
+    venue: Conference on Uncertainty in Artificial Intelligence
+    venue_short: UAI
+    status: published
+    year: 2021
+  "2405.12658":
+    venue: Conference on Uncertainty in Artificial Intelligence
+    venue_short: UAI
+    status: published
+  "2301.02080":
+    venue: Conference on Health, Inference, and Learning
+    venue_short: CHIL
+    status: published
+  "2011.03274":
+    venue: Machine Learning for Health (ML4H) at NeurIPS
+    venue_short: ML4H
+    status: published
+
+  # --- Titles that differ between versions of the same paper
+  "2004.05824":
+    title: Uncertainty estimation for classification and risk prediction on medical tabular data
+
+  # --- Earlier versions of papers listed elsewhere under a different title
+  "Causal blind spots when using prediction models for treatment decisions": {hide: true}  # = Annals 2025
+  "10.2139/ssrn.5021594": {hide: true}                   # = Journal of Intensive Medicine 2025
+  "10.2196/preprints.27795": {hide: true}                # = JMIR Medical Informatics 2022
+  "Bisimulation for conditional modalities (extended version)": {hide: true}  # = Studia Logica
+
+  # --- Works by other people named Giovanni Cinà
+  "Subordinazione ed etero-organizzazione: rider e \"debolezza economica\" in una prospettiva comparata": {hide: true}
+  "Principio di autodeterminazione e tutela della salute nel diritto privato regionale": {hide: true}
+  "Il diritto privato tra Stato e Regioni: riflessioni comparatistiche": {hide: true}
+  "Studio diagnostico sul soffitto ligneo dipinto della cattedrale di Nicosia (EN)": {hide: true}
+
+  # --- Missing or incomplete metadata
+  "Categories for the working modal logician":
+    venue: PhD thesis, Institute for Logic, Language and Computation, University of Amsterdam
+    status: published
+  "A Syntactic Proof of Arrow's Theorem in a Modal Logic of Social Choice Functions":
+    authors: [Giovanni Cinà, Ulle Endriss]
+    venue: International Conference on Autonomous Agents and Multiagent Systems
+    venue_short: AAMAS
+
+  # --- Your call: uncomment to hide
+  # "10.1097/ccm.0000000000006976": {hide: true}         # "The authors reply:" (letter)
+  # "10.1093/bjd/ljaf085.031": {hide: true}              # BJD conference abstract P003
 
 # Rename a venue everywhere it occurs, keyed by the name OpenAlex uses.
 # Only for venue names that are unambiguous (not for PMLR, see above).

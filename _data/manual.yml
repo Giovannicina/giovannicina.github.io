@@ -1,10 +1,16 @@
-# Papers not (yet) in DBLP or ORCID. Remove an entry once it appears there,
+# Papers not (yet) in OpenAlex or ORCID. Remove an entry once it appears there,
 # otherwise it will be listed twice.
-[]
+- title: Inducing Causal Structure Applied to Glucose Prediction for T1DM Patients
+  authors: [Ana Esponera, Giovanni Cinà]
+  year: 2025
+  venue: Conference on Causal Learning and Reasoning
+  venue_short: CLeaR
+  status: published
+  url: https://mlanthology.org/clear/2025/esponera2025clear-inducing/
+
 # - title: "Paper title"
 #   authors: [First Author, Giovanni Cinà]
 #   year: 2026
-#   venue_short: ""
 #   venue: ""                  # full venue name; empty for preprints
 #   status: preprint            # preprint | under review | accepted | published
 #   arxiv: "2601.00000"
