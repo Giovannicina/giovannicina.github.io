@@ -12,6 +12,7 @@ drops by more than MAX_DROP, the script exits non-zero and leaves the
 existing file untouched. Use --force to override the drop check.
 """
 
+import gzip
 import json
 import re
 import sys
@@ -56,7 +57,10 @@ def http_get(url, accept, retries=3):
     for attempt in range(retries):
         try:
             with urllib.request.urlopen(req, timeout=30) as r:
-                return r.read()
+                body = r.read()
+                if body[:2] == b"\x1f\x8b":  # gzip-compressed despite not being asked for
+                    body = gzip.decompress(body)
+                return body
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 raise
@@ -99,8 +103,30 @@ def doi_from(url):
 # --------------------------------------------------------------------------
 # DBLP
 
+DBLP_HOSTS = ("https://dblp.org", "https://dblp.uni-trier.de", "https://dblp.dagstuhl.de")
+
+
 def fetch_dblp(pid):
-    return http_get(f"https://dblp.org/pid/{pid}.xml", "application/xml")
+    """Try the main DBLP site, then its official mirrors; return the first valid XML."""
+    problems = []
+    for host in DBLP_HOSTS:
+        url = f"{host}/pid/{pid}.xml"
+        try:
+            body = http_get(url, "application/xml, text/xml;q=0.9")
+        except Exception as e:
+            problems.append(f"{url}: {e}")
+            continue
+        try:
+            root = ET.fromstring(body)
+        except ET.ParseError as e:
+            start = body[:200].decode("utf-8", "replace").replace("\n", " ")
+            problems.append(f"{url}: not XML ({e}); response began: {start!r}")
+            continue
+        if root.tag != "dblpperson":
+            problems.append(f"{url}: unexpected XML root <{root.tag}>")
+            continue
+        return body
+    raise RuntimeError("DBLP unavailable:\n  " + "\n  ".join(problems))
 
 
 def parse_dblp(xml_bytes, pid, self_name):
@@ -165,7 +191,13 @@ def merge_preprints(pubs):
 # ORCID
 
 def fetch_orcid(orcid):
-    return json.loads(http_get(f"https://pub.orcid.org/v3.0/{orcid}/works", "application/json"))
+    url = f"https://pub.orcid.org/v3.0/{orcid}/works"
+    body = http_get(url, "application/json")
+    try:
+        return json.loads(body)
+    except json.JSONDecodeError as e:
+        start = body[:200].decode("utf-8", "replace").replace("\n", " ")
+        raise RuntimeError(f"ORCID unavailable:\n  {url}: not JSON ({e}); response began: {start!r}")
 
 
 def fetch_csl(doi):
@@ -290,6 +322,7 @@ def load_yaml(name):
 
 
 def main():
+    sys.stdout.reconfigure(line_buffering=True)  # keep log lines in order with stderr
     force = "--force" in sys.argv
     cfg = yaml.safe_load((ROOT / "_config.yml").read_text(encoding="utf-8"))["publications"]
     self_name = cfg["name"]
@@ -304,7 +337,7 @@ def main():
         added = add_orcid_works(pubs, works, self_variants, self_name)
         print(f"  {len(works)} works, {added} not in DBLP")
     except Exception as e:
-        print(f"error: source unavailable ({e}); keeping existing publication list", file=sys.stderr)
+        print(f"error: {e}\nKeeping the existing publication list.", file=sys.stderr)
         return 1
 
     manual = load_yaml("manual.yml")
