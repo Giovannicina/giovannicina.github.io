@@ -372,6 +372,10 @@ def main():
 
     manual = load_yaml("manual.yml")
     for m in manual if isinstance(manual, list) else []:
+        probe = {"title": m.get("title", ""), "doi": m.get("doi"), "arxiv": m.get("arxiv")}
+        if find_match(pubs, probe):
+            print(f"  manual.yml entry now found in sources, skipped: {m.get('title')}")
+            continue
         m.setdefault("status", "preprint")
         for k in ("doi", "arxiv", "url", "openalex"):
             m.setdefault(k, None)

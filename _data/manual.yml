@@ -8,6 +8,13 @@
   status: published
   url: https://mlanthology.org/clear/2025/esponera2025clear-inducing/
 
+- title: "2-Step Agent: A Framework for the Interaction of a Decision Maker with AI Decision Support"
+  authors: [Otto Nyberg, Davide Tugnoli, Fausto Carcassi, Giovanni Cinà]
+  year: 2026
+  status: preprint
+  arxiv: "2602.21889"
+  url: https://arxiv.org/abs/2602.21889
+
 # - title: "Paper title"
 #   authors: [First Author, Giovanni Cinà]
 #   year: 2026

@@ -55,14 +55,38 @@ papers:
   "Categories for the working modal logician":
     venue: PhD thesis, Institute for Logic, Language and Computation, University of Amsterdam
     status: published
+  "Bisimulation and path logic for sheaves: contextuality and beyond":
+    authors: [Giovanni Cinà, Sebastian Enqvist]
+    url: https://eprints.illc.uva.nl/id/eprint/693/1/X-2016-01.text.pdf
   "A Syntactic Proof of Arrow's Theorem in a Modal Logic of Social Choice Functions":
     authors: [Giovanni Cinà, Ulle Endriss]
     venue: International Conference on Autonomous Agents and Multiagent Systems
     venue_short: AAMAS
 
-  # --- Your call: uncomment to hide
-  # "10.1097/ccm.0000000000006976": {hide: true}         # "The authors reply:" (letter)
-  # "10.1093/bjd/ljaf085.031": {hide: true}              # BJD conference abstract P003
+  # --- Accepted papers still listed as preprints
+  "2603.10254":                                          # TabPFN causal structure
+    venue: Conference on Uncertainty in Artificial Intelligence
+    venue_short: UAI
+    status: accepted
+
+  "2602.21889":                                          # 2-Step Agent: latest arXiv title, author order
+    title: "2-Step Agent: A Framework for the Interaction of a Decision Maker with AI Decision Support"
+    authors: [Otto Nyberg, Davide Tugnoli, Fausto Carcassi, Giovanni Cinà]
+    equal_contribution: [Otto Nyberg, Davide Tugnoli, Fausto Carcassi, Giovanni Cinà]
+
+  # --- Not full papers
+  "10.1097/ccm.0000000000006976": {hide: true}           # "The authors reply:" (letter)
+  "10.1093/bjd/ljaf085.031": {hide: true}                # BJD conference abstract P003
+
+  # --- Early writing, not listed
+  "10.13130/2037-4445/1469": {hide: true}                # Rassegna Individuo e Società (2011)
+  "10.13130/2037-4445/1480": {hide: true}                # Steven Vickers - Topology via Logic (2011)
+  "10.13130/2037-4445/1484": {hide: true}                # L'Argomento della Crisi Sistemica (2011)
+  "10.13130/2037-4445/2161": {hide: true}                # In risposta a: "L'argomento della Crisi Sistemica" (2012)
+  "10.13130/2037-4445/4010": {hide: true}                # A Formal Analysis of the Best System Account of Lawhood (2014)
+  "On the connection between the categorical and the modallogic approaches to Quantum Mechanics": {hide: true}  # PhilSci draft (2013)
+  "Bisimulation and path logic for sheaves": {hide: true}  # TACL 2015
+  "Connecting the Categorical and the Modal Logic Approaches to Quantum Mechanics": {hide: true}  # ESSLLI 2014
 
 # Rename a venue everywhere it occurs, keyed by the name OpenAlex uses.
 # Only for venue names that are unambiguous (not for PMLR, see above).
