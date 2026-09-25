@@ -292,6 +292,31 @@
   "id": "10.1016/j.jointm.2025.03.007"
  },
  {
+  "title": "Inducing Causal Structure Applied to Glucose Prediction for T1DM Patients",
+  "authors": [
+   {
+    "name": "Ana Esponera",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2025,
+  "venue": "Conference on Causal Learning and Reasoning",
+  "venue_short": "CLeaR",
+  "status": "published",
+  "url": "https://mlanthology.org/clear/2025/esponera2025clear-inducing/",
+  "doi": null,
+  "arxiv": null,
+  "openalex": null,
+  "selected": false,
+  "id": "inducingcausalstructureappliedtoglucosep"
+ },
+ {
   "title": "P003 Predictors of differential treatment response between adalimumab and methotrexate in psoriasis: a causal forest analysis of the British Association of Dermatologists Biologics and Immunomodulators Register",
   "authors": [
    {
@@ -549,7 +574,7 @@
     "equal": false
    },
    {
-    "name": "Suzanne Vosslamber",
+    "name": "Suzanne M. Vosslamber",
     "self": false,
     "equal": false
    },
@@ -638,97 +663,6 @@
   "id": "10.1186/s41512-025-00209-4"
  },
  {
-  "title": "Causal blind spots when using prediction models for treatment decisions",
-  "authors": [
-   {
-    "name": "Nan van Geloven",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Ruth H. Keogh",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Wouter A. C. van Amsterdam",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Jesse H Krijthe",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Niels Peek",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Kim Luijken",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Sara Magliacane",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Paweł Morzywołek",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Thijs van Ommen",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Hein Putter",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Matthew Sperrin",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Junfeng Wang",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Daniala L. Weir",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Vanessa Didelez",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2024,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "Pure Amsterdam UMC",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": null,
-  "url": "https://pure.amsterdamumc.nl/en/publications/c08c45fc-7d06-4167-8b8d-e0d2735ff589",
-  "openalex": "W7132346828",
-  "selected": false,
-  "id": "W7132346828"
- },
- {
   "title": "Development and clinical implementation of real-time decision support tools for ICU discharge",
   "authors": [
    {
@@ -783,52 +717,6 @@
   "openalex": "W4393338388",
   "selected": false,
   "id": "10.1016/j.jcrc.2024.154558"
- },
- {
-  "title": "Icu Readmission Risk Prediction: Generalizability of a Multi-Hospital Model",
-  "authors": [
-   {
-    "name": "Tariq A. Dam",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Daan de Bruin",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Paul Elbers",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Corstiaan A. den Uil",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Reinier  F. Crane",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2024,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "SSRN Electronic Journal",
-  "status": "preprint",
-  "doi": "10.2139/ssrn.5021594",
-  "arxiv": null,
-  "url": "https://doi.org/10.2139/ssrn.5021594",
-  "openalex": "W4404567054",
-  "selected": false,
-  "id": "10.2139/ssrn.5021594"
  },
  {
   "title": "ICURE: Intensive care unit (ICU) risk evaluation for 30‐day mortality. Developing and evaluating a multivariable machine learning prediction model for patients admitted to the general ICU in Sweden",
@@ -911,10 +799,10 @@
    }
   ],
   "year": 2024,
-  "venue_short": "",
-  "venue": "",
+  "venue_short": "UAI",
+  "venue": "Conference on Uncertainty in Artificial Intelligence",
   "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
+  "status": "published",
   "doi": "10.48550/arxiv.2405.12658",
   "arxiv": "2405.12658",
   "url": "http://arxiv.org/abs/2405.12658",
@@ -1191,10 +1079,10 @@
    }
   ],
   "year": 2023,
-  "venue_short": "",
-  "venue": "",
+  "venue_short": "CHIL",
+  "venue": "Conference on Health, Inference, and Learning",
   "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
+  "status": "published",
   "doi": "10.48550/arxiv.2301.02080",
   "arxiv": "2301.02080",
   "url": "http://arxiv.org/abs/2301.02080",
@@ -1790,7 +1678,7 @@
     "equal": false
    },
    {
-    "name": "Joost Labout",
+    "name": "Joost A. M. Labout",
     "self": false,
     "equal": false
    },
@@ -1910,7 +1798,7 @@
     "equal": false
    },
    {
-    "name": "Jan Peppink",
+    "name": "Jan M. Peppink",
     "self": false,
     "equal": false
    },
@@ -1934,252 +1822,6 @@
  },
  {
   "title": "A pragmatic approach to estimating average treatment effects from EHR data: the effect of prone positioning on mechanically ventilated COVID-19 patients",
-  "authors": [
-   {
-    "name": "Adam Izdebski",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Patrick  J. Thoral",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Robbert C. A. Lalisang",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Dean McHugh",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Diederik A M P J Gommers",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Olaf L. Cremer",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Rob J. Bosman",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Sander Rigter",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Evert‐Jan Wils",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Tim Frenzel",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Dave Anton Dongelmans",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Remko de Jong",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Marco Peters",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Marlijn J. A. Kamps",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Dharmanand Ramnarain",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Ralph O. Nowitzky",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Fleur G. C. A. Nooteboom",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Wouter de Ruijter",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Louise C. Urlings‐Strop",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Ellen G. M. Smit",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Mehagnoul-Schipper, D. Jannet",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Tom P.J. Dormans",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Cornelis P. C. de Jager",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Stefaan H. A. Hendriks",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Sefanja Achterberg",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Evelien A. N. Oostdijk",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Auke C. Reidinga",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Barbara Festen‐Spanjer",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Gert B. Brunnekreef",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Alexander Daniel Cornet",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Tempel, Walter van den",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Age D. Boelens",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Peter M. Koetsier",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Judith Lens",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Harald J. Faber",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Ali Karakuş",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Robert Entjes",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Paul de Jong",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Rettig, Thijs C. D.",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Arbous, Sesmu",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Fleuren, Lucas M.",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Dam, Tariq A.",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Tonutti, Michele",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "de Bruin, Daan P.",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Paul Elbers",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2021,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": "10.48550/arxiv.2109.06707",
-  "arxiv": "2109.06707",
-  "url": "http://arxiv.org/abs/2109.06707",
-  "openalex": "W3201106371",
-  "selected": false,
-  "id": "10.48550/arxiv.2109.06707"
- },
- {
-  "title": "A pragmatic approach to estimating average treatment effects from EHR\\n data: the effect of prone positioning on mechanically ventilated COVID-19\\n patients",
   "authors": [
    {
     "name": "Adam Izdebski",
@@ -2417,23 +2059,18 @@
   "venue": "",
   "venue_key": "arXiv (Cornell University)",
   "status": "preprint",
-  "doi": null,
+  "doi": "10.48550/arxiv.2109.06707",
   "arxiv": "2109.06707",
   "url": "http://arxiv.org/abs/2109.06707",
   "openalex": "W4286976645",
   "selected": false,
-  "id": "2109.06707"
+  "id": "10.48550/arxiv.2109.06707"
  },
  {
-  "title": "Impact of a Machine Learning–Based Decision Support System for Urinary Tract Infections: Prospective Observational Study in 36 Primary Care Practices (Preprint)",
+  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at Reliable OOD Detection",
   "authors": [
    {
-    "name": "Willem Ernst Herter",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Janine Khuc",
+    "name": "Dennis Ulmer",
     "self": false,
     "equal": false
    },
@@ -2441,59 +2078,19 @@
     "name": "Giovanni Cinà",
     "self": true,
     "equal": false
-   },
-   {
-    "name": "Bart J. Knottnerus",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Mattijs Everard Numans",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Maryse A. Wiewel",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Tobias Nicolaas Bonten",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Daan P. de Bruin",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Thamar van Esch",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Niels Henrik Chavannes",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Robert A. Verheij",
-    "self": false,
-    "equal": false
    }
   ],
   "year": 2021,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "",
-  "status": "preprint",
-  "doi": "10.2196/preprints.27795",
-  "arxiv": null,
-  "url": "https://doi.org/10.2196/preprints.27795",
-  "openalex": "W4233932533",
+  "venue_short": "UAI",
+  "venue": "Conference on Uncertainty in Artificial Intelligence",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "published",
+  "doi": "10.48550/arxiv.2012.05329",
+  "arxiv": "2012.05329",
+  "url": "http://arxiv.org/abs/2012.05329",
+  "openalex": "W4287554837",
   "selected": false,
-  "id": "10.2196/preprints.27795"
+  "id": "10.48550/arxiv.2012.05329"
  },
  {
   "title": "Predictors for extubation failure in COVID-19 patients using a machine learning approach",
@@ -3880,110 +3477,6 @@
   "id": "10.1016/j.jval.2021.06.018"
  },
  {
-  "title": "Know Your Limits: Monotonicity & Softmax Make Neural Classifiers Overconfident on OOD Data",
-  "authors": [
-   {
-    "name": "Dennis Ulmer",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": "2012.05329",
-  "url": "https://arxiv.org/abs/2012.05329",
-  "openalex": "W3111327898",
-  "selected": false,
-  "id": "2012.05329"
- },
- {
-  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at Reliable OOD Detection",
-  "authors": [
-   {
-    "name": "Dennis Ulmer",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "IT University Of Copenhagen (IT University of Copenhagen)",
-  "status": "preprint",
-  "doi": "10.48550/arxiv.2012.05329",
-  "arxiv": "2012.05329",
-  "url": "https://pure.itu.dk/portal/da/publications/b80af5a9-b1ae-45c4-b002-93bdd1b99f5b",
-  "openalex": "W3134514250",
-  "selected": false,
-  "id": "10.48550/arxiv.2012.05329"
- },
- {
-  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at\\n Reliable OOD Detection",
-  "authors": [
-   {
-    "name": "Dennis Ulmer",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": "2012.05329",
-  "url": "http://arxiv.org/abs/2012.05329",
-  "openalex": "W4287554837",
-  "selected": false,
-  "id": "2012.05329"
- },
- {
-  "title": "Subordinazione ed etero-organizzazione: rider e \"debolezza economica\" in una prospettiva comparata",
-  "authors": [
-   {
-    "name": "Andrea Sitzia",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "La Nuova giurisprudenza civile commentata",
-  "venue_key": "La Nuova giurisprudenza civile commentata",
-  "status": "published",
-  "doi": null,
-  "arxiv": null,
-  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=7961111",
-  "openalex": "W3184409233",
-  "selected": false,
-  "id": "W3184409233"
- },
- {
   "title": "Trust Issues: Uncertainty Estimation Does Not Enable Reliable OOD Detection On Medical Tabular Data",
   "authors": [
    {
@@ -4003,8 +3496,8 @@
    }
   ],
   "year": 2020,
-  "venue_short": "",
-  "venue": "",
+  "venue_short": "ML4H",
+  "venue": "Machine Learning for Health (ML4H) at NeurIPS",
   "venue_key": "",
   "status": "published",
   "doi": "10.48550/arxiv.2011.03274",
@@ -4013,37 +3506,6 @@
   "openalex": "W3204297249",
   "selected": false,
   "id": "10.48550/arxiv.2011.03274"
- },
- {
-  "title": "Uncertainty estimation for classification and risk prediction in medical settings",
-  "authors": [
-   {
-    "name": "Lotta Meijerink",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Michele Tonutti",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": "2004.05824",
-  "url": "https://arxiv.org/abs/2004.05824",
-  "openalex": "W3015984827",
-  "selected": false,
-  "id": "2004.05824"
  },
  {
   "title": "Uncertainty estimation for classification and risk prediction on medical tabular data",
@@ -4072,40 +3534,9 @@
   "doi": "10.48550/arxiv.2004.05824",
   "arxiv": "2004.05824",
   "url": "http://arxiv.org/abs/2004.05824",
-  "openalex": "W3028279294",
-  "selected": false,
-  "id": "10.48550/arxiv.2004.05824"
- },
- {
-  "title": "Uncertainty estimation for classification and risk prediction on medical\\n tabular data",
-  "authors": [
-   {
-    "name": "Lotta Meijerink",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Michele Tonutti",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": "2004.05824",
-  "url": "http://arxiv.org/abs/2004.05824",
   "openalex": "W4287815566",
   "selected": false,
-  "id": "2004.05824"
+  "id": "10.48550/arxiv.2004.05824"
  },
  {
   "title": "Bayesian Modelling in Practice: Using Uncertainty to Improve Trustworthiness in Medical Applications",
@@ -4147,27 +3578,6 @@
   "openalex": "W2949812058",
   "selected": false,
   "id": "10.48550/arxiv.1906.08619"
- },
- {
-  "title": "Principio di autodeterminazione e tutela della salute nel diritto privato regionale",
-  "authors": [
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2018,
-  "venue_short": "",
-  "venue": "La Nuova giurisprudenza civile commentata",
-  "venue_key": "La Nuova giurisprudenza civile commentata",
-  "status": "published",
-  "doi": null,
-  "arxiv": null,
-  "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6391322",
-  "openalex": "W2852426605",
-  "selected": false,
-  "id": "W2852426605"
  },
  {
   "title": "A Characterization Theorem for Trackable Updates",
@@ -4227,36 +3637,15 @@
   ],
   "year": 2017,
   "venue_short": "",
-  "venue": "",
+  "venue": "PhD thesis, Institute for Logic, Language and Computation, University of Amsterdam",
   "venue_key": "Data Archiving and Networked Services (DANS)",
-  "status": "preprint",
+  "status": "published",
   "doi": null,
   "arxiv": null,
   "url": "https://dare.uva.nl/personal/pure/en/publications/categories-for-the-working-modal-logician(4331b708-f95f-4929-b4dd-6d6707162bfb).html",
   "openalex": "W2626985052",
   "selected": false,
   "id": "W2626985052"
- },
- {
-  "title": "Il diritto privato tra Stato e Regioni: riflessioni comparatistiche",
-  "authors": [
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   }
-  ],
-  "year": 2017,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "",
-  "status": "published",
-  "doi": null,
-  "arxiv": null,
-  "url": "http://paduaresearch.cab.unipd.it/9997/",
-  "openalex": "W2768998673",
-  "selected": false,
-  "id": "W2768998673"
  },
  {
   "title": "Bisimulation and path logic for sheaves: contextuality and beyond",
@@ -4272,21 +3661,6 @@
   "openalex": null,
   "selected": false,
   "id": "bisimulationandpathlogicforsheavescontex"
- },
- {
-  "title": "Bisimulation for conditional modalities (extended version)",
-  "authors": [],
-  "year": 2016,
-  "venue_short": "",
-  "venue": "ILLC Technical Reports",
-  "status": "published",
-  "doi": null,
-  "arxiv": null,
-  "url": null,
-  "venue_key": "",
-  "openalex": null,
-  "selected": false,
-  "id": "bisimulationforconditionalmodalitiesexte"
  },
  {
   "title": "MIXING CATEGORIES AND MODAL LOGICS IN THE QUANTUM SETTING",
@@ -4337,10 +3711,21 @@
  },
  {
   "title": "A Syntactic Proof of Arrow's Theorem in a Modal Logic of Social Choice Functions",
-  "authors": [],
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Ulle Endriss",
+    "self": false,
+    "equal": false
+   }
+  ],
   "year": 2015,
-  "venue_short": "",
-  "venue": "AAMAS '15",
+  "venue_short": "AAMAS",
+  "venue": "International Conference on Autonomous Agents and Multiagent Systems",
   "status": "published",
   "doi": null,
   "arxiv": null,
@@ -4510,61 +3895,5 @@
   "openalex": "W76027790",
   "selected": false,
   "id": "10.13130/2037-4445/1480"
- },
- {
-  "title": "Studio diagnostico sul soffitto ligneo dipinto della cattedrale di Nicosia (EN)",
-  "authors": [
-   {
-    "name": "Fernanda Prestileo",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Bruno",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Daniel Perrone",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Maria Francesca Alberghina",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Sophie Schiavone",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "CAROTI STEFANO",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Marcus Tullius CICERO",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2008,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "Nova Science Publishers (Nova Science Publishers, Inc.)",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": null,
-  "url": "http://hdl.handle.net/10447/40918",
-  "openalex": "W2966608659",
-  "selected": false,
-  "id": "W2966608659"
  }
 ]
