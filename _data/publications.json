@@ -35,6 +35,57 @@
   "id": "2602.21889"
  },
  {
+  "title": "A Causal Framework for Evaluating ICU Discharge Strategies",
+  "authors": [
+   {
+    "name": "Sagar Nagaraj Simha",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Juliette Ortholand",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jessica D. Workum",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Olivier Thijssens",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2603.25397",
+  "url": "http://arxiv.org/abs/2603.25397",
+  "openalex": "W7141278045",
+  "selected": false,
+  "id": "2603.25397"
+ },
+ {
   "title": "Improving TabPFN's Synthetic Data Generation by Integrating Causal Structure",
   "authors": [
    {
@@ -153,21 +204,31 @@
   "id": "10.2139/ssrn.6350818"
  },
  {
-  "title": "Where Animacy Lives in Large Language Models: Tracing the Circuits of the Animacy Concept",
+  "title": "Rethinking external validation for the target population: Capturing patient-level similarity with a generative model",
   "authors": [
    {
-    "name": "Samuele Punzo",
+    "name": "Mohammad Azizmalayeri",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Saskia Houterman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marije M. Vis",
     "self": false,
     "equal": false
    },
    {
     "name": "Giovanni Cinà",
     "self": true,
-    "equal": false
-   },
-   {
-    "name": "Sandro Pezzelle",
-    "self": false,
     "equal": false
    }
   ],
@@ -177,11 +238,11 @@
   "venue_key": "arXiv (Cornell University)",
   "status": "preprint",
   "doi": null,
-  "arxiv": "2607.20995",
-  "url": "https://arxiv.org/abs/2607.20995",
-  "openalex": "W7171268353",
+  "arxiv": "2605.11284",
+  "url": "https://arxiv.org/abs/2605.11284",
+  "openalex": "W7161047658",
   "selected": false,
-  "id": "2607.20995"
+  "id": "2605.11284"
  },
  {
   "title": "Enhancing Quality of Care Assessments: Managing Atypical Patients in ICU Benchmarking in The Netherlands",
@@ -1838,7 +1899,7 @@
     "equal": false
    },
    {
-    "name": "Merijn C. Reuland",
+    "name": "Merijn Constantijn Reuland",
     "self": false,
     "equal": false
    },
@@ -2344,7 +2405,7 @@
     "equal": false
    },
    {
-    "name": "Merijn C. Reuland",
+    "name": "Merijn Constantijn Reuland",
     "self": false,
     "equal": false
    },
