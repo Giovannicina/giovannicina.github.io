@@ -9,29 +9,32 @@
 # fill in their roles, and delete the rest.
 
 team:
-# - name: Mohammad Azizmalayeri
-#   role: PhD candidate
-#   affiliation: Amsterdam UMC
-#   topic: Out-of-distribution detection for clinical models
-# - name: Otto Nyberg
-#   role: PhD candidate
-#   affiliation: Amsterdam UMC
+
+- name: Sagar Nagaraj Simha
+  role: PhD candidate
+  affiliation: Amsterdam UMC
+- name: Davide Tugnoli
+  role: PhD candidate (co-supervised with Andrea de Lorenzo)
+  affiliation: University of Trieste
+- name: Daniel Fernandez Llaneza
+  role: PhD candidate (co-supervised with Johanna Klopotowska)
+  affiliation: Amsterdam UMC
+- name: Mohammad Azizmalayeri
+  role: PostDoc
+  affiliation: Amsterdam UMC
+- name: Otto Nyberg
+  role: PostDoc
+  affiliation: Amsterdam UMC
 # - name: Izak Yasrebi-de Kom
 #   role: PhD candidate
 #   affiliation: Amsterdam UMC
-# - name: Sagar Nagaraj Simha
-#   role: Postdoc
-#   affiliation: Amsterdam UMC
-# - name: Davide Tugnoli
-#   role: PhD candidate
-#   affiliation: University of Trieste
+
+
 #   note: co-supervised
 # - name: Samuele Punzo
 #   role: PhD candidate
 #   affiliation: University of Amsterdam
-# - name: Ana Esponera
-#   role: ""
-#   affiliation: ""
+
 
 collaborators:
 # - name: Ameen Abu-Hanna
