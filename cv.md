@@ -2,6 +2,7 @@
 layout: default
 title: CV
 permalink: /cv/
+published: false
 ---
 # Curriculum vitae
 
