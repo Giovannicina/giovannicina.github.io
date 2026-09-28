@@ -14,14 +14,15 @@ team:
   role: PhD candidate
   affiliation: Amsterdam UMC
 - name: Davide Tugnoli
-  role: PhD candidate (co-supervised with Andrea de Lorenzo)
+  role: PhD candidate
   affiliation: University of Trieste
   url: https://scholar.google.nl/citations?hl=nl&user=Zs41xG8AAAAJ
+  note: co-supervised with Andrea de Lorenzo
 - name: Daniel Fernandez Llaneza
-  role: PhD candidate (co-supervised with Johanna Klopotowska)
+  role: PhD candidate
   affiliation: Amsterdam UMC
   url: https://scholar.google.nl/citations?hl=nl&user=WgnU8v0AAAAJ
-  note: co-supervised
+  note: co-supervised with Johanna Klopotowska
 - name: Mohammad Azizmalayeri
   role: PostDoc
   affiliation: Amsterdam UMC
@@ -34,6 +35,7 @@ team:
   role: PostDoc
   affiliation: Amsterdam UMC
   url: https://scholar.google.nl/citations?user=iTNAkQ0AAAAJ&hl=nl&oi=ao
+  note: co-supervised with Ameen Abu-Hanna
 # - name: Izak Yasrebi-de Kom
 #   role: PhD candidate
 #   affiliation: Amsterdam UMC
@@ -45,10 +47,12 @@ team:
 collaborators:
 # - name: Ameen Abu-Hanna
 #   affiliation: Amsterdam UMC
-# - name: Sandro Pezzelle
-#   affiliation: University of Amsterdam
-# - name: Fausto Carcassi
-#   affiliation: University of Amsterdam
+- name: Sandro Pezzelle
+  affiliation: University of Amsterdam
+  url:  https://sandropezzelle.github.io
+- name: Fausto Carcassi
+  affiliation: University of Amsterdam
+  url: https://faustocarcassi.com
 # - name: Ş. İlker Birbil
 #   affiliation: University of Amsterdam
 # - name: Rob Goedhart
