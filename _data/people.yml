@@ -21,6 +21,7 @@ team:
   role: PhD candidate (co-supervised with Johanna Klopotowska)
   affiliation: Amsterdam UMC
   url: https://scholar.google.nl/citations?hl=nl&user=WgnU8v0AAAAJ
+  note: co-supervised
 - name: Mohammad Azizmalayeri
   role: PostDoc
   affiliation: Amsterdam UMC
@@ -29,15 +30,16 @@ team:
   role: PostDoc
   affiliation: Amsterdam UMC
   url: https://scholar.google.nl/citations?hl=nl&user=5izbFUAAAAAJ
+- name: Juliette Ortholand
+  role: PostDoc
+  affiliation: Amsterdam UMC
+  url: https://scholar.google.nl/citations?user=iTNAkQ0AAAAJ&hl=nl&oi=ao
 # - name: Izak Yasrebi-de Kom
 #   role: PhD candidate
 #   affiliation: Amsterdam UMC
 
 
 #   note: co-supervised
-# - name: Samuele Punzo
-#   role: PhD candidate
-#   affiliation: University of Amsterdam
 
 
 collaborators:
@@ -59,7 +61,6 @@ collaborators:
 #   affiliation: Leiden University Medical Center
 # - name: Jesse H. Krijthe
 #   affiliation: Delft University of Technology
-# - name: Sara Magliacane
-#   affiliation: University of Amsterdam
-# - name: Matthew Sperrin
-#   affiliation: University of Manchester
+
+alumni: 
+
