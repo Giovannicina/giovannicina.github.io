@@ -1,4 +1,11 @@
 # Newest first is not required; the homepage sorts by date.
 # The homepage shows the latest `home_news` items (see _config.yml).
 - date: 2026-09-24
+  text: "🎉 Our paper [2-Step Agent](https://arxiv.org/abs/2602.21889) has been accepted for NeurIPS 2026!."
+- date: 2026-09-24
   text: New website launched.
+- date: 2026-08-17
+  text: "Presented our TabPFN work at [UAI 2026](https://www.auai.org/uai2026/) 🇳🇱"
+- date: 2026-07-03
+  text: Mohammad defended his PhD! Congratulations Mohammad! 🎉
+
