@@ -7,7 +7,7 @@ title: About me
 ## Background
 
 <!-- Draft: rewrite freely. -->
-I am an Assistant Professor in Responsible Medical AI at the [Department of Medical Informatics](https://kik.amsterdamumc.org) of the Amsterdam University Medical Center and at the [Institute for Logic, Language and Computation](https://www.illc.uva.nl) of the University of Amsterdam.
+I am an Assistant Professor in Responsible Medical AI at the [Department of Medical Informatics](https://kik.amsterdamumc.org) of the Amsterdam University Medical Center and at the [Institute for Logic, Language and Computation](https://www.illc.uva.nl) of the University of Amsterdam. My team is embedded in the [Methods in Medical Informatics](https://kik.amsterdamumc.org/methods-in-medical-informatics/) group.
 
 I previously obtained a PhD and a MSc in Mathematical Logic at ILLC, as well as a MSc in Philosophy of Science at [London School of Economics and Political Science](https://www.lse.ac.uk). My BA is in Philosophy, from the [University of Milan](https://www.unimi.it/en). I also spent several years at [Pacmed](https://www.pacmed.ai/en) as Data Scientist, AI Specialist and Research Lead.
 
