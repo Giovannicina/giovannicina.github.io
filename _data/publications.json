@@ -1317,12 +1317,12 @@
   "title": "A pragmatic approach to estimating average treatment effects from EHR data: the effect of prone positioning on mechanically ventilated COVID-19 patients",
   "authors": [
    {
-    "name": "Adam Izdebski",
+    "name": "Izdebski, Adam",
     "self": false,
     "equal": false
    },
    {
-    "name": "Patrick Thoral",
+    "name": "Patrick  J. Thoral",
     "self": false,
     "equal": false
    },
@@ -1337,7 +1337,7 @@
     "equal": false
    },
    {
-    "name": "Diederik Gommers",
+    "name": "Diederik A M P J Gommers",
     "self": false,
     "equal": false
    },
@@ -1367,7 +1367,7 @@
     "equal": false
    },
    {
-    "name": "Dave A. Dongelmans",
+    "name": "Dave Anton Dongelmans",
     "self": false,
     "equal": false
    },
@@ -1377,12 +1377,12 @@
     "equal": false
    },
    {
-    "name": "Marco A. A. Peters",
+    "name": "Marco Peters",
     "self": false,
     "equal": false
    },
    {
-    "name": "Marlijn J. A Kamps",
+    "name": "Marlijn J. A. Kamps",
     "self": false,
     "equal": false
    },
@@ -1392,7 +1392,7 @@
     "equal": false
    },
    {
-    "name": "Ralph Nowitzky",
+    "name": "Ralph O. Nowitzky",
     "self": false,
     "equal": false
    },
@@ -1417,12 +1417,12 @@
     "equal": false
    },
    {
-    "name": "D. Jannet Mehagnoul‐Schipper",
+    "name": "Mehagnoul-Schipper, D. Jannet",
     "self": false,
     "equal": false
    },
    {
-    "name": "Tom Dormans",
+    "name": "Tom P.J. Dormans",
     "self": false,
     "equal": false
    },
@@ -1442,7 +1442,7 @@
     "equal": false
    },
    {
-    "name": "Evelien Oostdijk",
+    "name": "Evelien A. N. Oostdijk",
     "self": false,
     "equal": false
    },
@@ -1462,12 +1462,12 @@
     "equal": false
    },
    {
-    "name": "Alexander D. Cornet",
+    "name": "Alexander Daniel Cornet",
     "self": false,
     "equal": false
    },
    {
-    "name": "Walter van den Tempel",
+    "name": "Tempel, Walter van den",
     "self": false,
     "equal": false
    },
@@ -1477,7 +1477,7 @@
     "equal": false
    },
    {
-    "name": "Peter Koetsier",
+    "name": "Koetsier, Peter",
     "self": false,
     "equal": false
    },
@@ -1492,7 +1492,7 @@
     "equal": false
    },
    {
-    "name": "Arife Melike Bulut Karakuş",
+    "name": "Karakus, A.",
     "self": false,
     "equal": false
    },
@@ -1502,37 +1502,37 @@
     "equal": false
    },
    {
-    "name": "Paul de Jong",
+    "name": "de Jong, Paul",
     "self": false,
     "equal": false
    },
    {
-    "name": "Thijs C. D. Rettig",
+    "name": "Rettig, Thijs C. D.",
     "self": false,
     "equal": false
    },
    {
-    "name": "M. Sesmu Arbous",
+    "name": "Arbous, Sesmu",
     "self": false,
     "equal": false
    },
    {
-    "name": "Lucas M. Fleuren",
+    "name": "Fleuren, Lucas M.",
     "self": false,
     "equal": false
    },
    {
-    "name": "Tariq A. Dam",
+    "name": "Dam, Tariq A.",
     "self": false,
     "equal": false
    },
    {
-    "name": "Michele Tonutti",
+    "name": "Tonutti, Michele",
     "self": false,
     "equal": false
    },
    {
-    "name": "Daan P. de Bruin",
+    "name": "de Bruin, Daan P.",
     "self": false,
     "equal": false
    },
@@ -1555,7 +1555,7 @@
   "doi": "10.48550/arxiv.2109.06707",
   "arxiv": "2109.06707",
   "url": "http://arxiv.org/abs/2109.06707",
-  "openalex": "W4286976645",
+  "openalex": "W3201106371",
   "selected": false,
   "id": "10.48550/arxiv.2109.06707"
  },
@@ -1578,10 +1578,25 @@
   "venue": "Conference on Uncertainty in Artificial Intelligence",
   "venue_key": "arXiv (Cornell University)",
   "status": "published",
-  "doi": "10.48550/arxiv.2012.05329",
+  "doi": null,
   "arxiv": "2012.05329",
-  "url": "http://arxiv.org/abs/2012.05329",
-  "openalex": "W4287554837",
+  "url": "https://arxiv.org/abs/2012.05329",
+  "openalex": "W3111327898",
+  "selected": false,
+  "id": "2012.05329"
+ },
+ {
+  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at Reliable OOD Detection",
+  "authors": [],
+  "year": 2021,
+  "venue_short": "",
+  "venue": "37th Conference on Uncertainty in Artificial Intelligence, UAI 2021",
+  "status": "published",
+  "doi": "10.48550/arxiv.2012.05329",
+  "arxiv": null,
+  "url": null,
+  "venue_key": "",
+  "openalex": null,
   "selected": false,
   "id": "10.48550/arxiv.2012.05329"
  },
@@ -1754,7 +1769,7 @@
     "equal": false
    },
    {
-    "name": "Peter M. Koetsier",
+    "name": "Peter Koetsier",
     "self": false,
     "equal": false
    },
@@ -2285,7 +2300,7 @@
     "equal": false
    },
    {
-    "name": "Peter M. Koetsier",
+    "name": "Peter Koetsier",
     "self": false,
     "equal": false
    },
@@ -2305,7 +2320,7 @@
     "equal": false
    },
    {
-    "name": "Ali Karakuş",
+    "name": "A. Karakus",
     "self": false,
     "equal": false
    },
@@ -2786,7 +2801,7 @@
     "equal": false
    },
    {
-    "name": "Peter M. Koetsier",
+    "name": "Peter Koetsier",
     "self": false,
     "equal": false
    },
@@ -2991,11 +3006,11 @@
   "year": 2020,
   "venue_short": "ML4H",
   "venue": "Machine Learning for Health (ML4H) at NeurIPS",
-  "venue_key": "",
+  "venue_key": "arXiv (Cornell University)",
   "status": "published",
   "doi": "10.48550/arxiv.2011.03274",
   "arxiv": "2011.03274",
-  "url": "http://proceedings.mlr.press/v136/ulmer20a/ulmer20a.pdf",
+  "url": "http://arxiv.org/abs/2011.03274",
   "openalex": "W3204297249",
   "selected": false,
   "id": "10.48550/arxiv.2011.03274"
@@ -3024,10 +3039,41 @@
   "venue": "",
   "venue_key": "arXiv (Cornell University)",
   "status": "preprint",
-  "doi": "10.48550/arxiv.2004.05824",
+  "doi": null,
   "arxiv": "2004.05824",
-  "url": "http://arxiv.org/abs/2004.05824",
-  "openalex": "W4287815566",
+  "url": "https://arxiv.org/abs/2004.05824",
+  "openalex": "W3015984827",
+  "selected": false,
+  "id": "2004.05824"
+ },
+ {
+  "title": "Uncertainty estimation for classification and risk prediction on medical tabular data",
+  "authors": [
+   {
+    "name": "Lotta Meijerink",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Michele Tonutti",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2020,
+  "venue_short": "",
+  "venue": "arXiv",
+  "status": "published",
+  "doi": "10.48550/arxiv.2004.05824",
+  "arxiv": null,
+  "url": "https://doi.org/10.48550/arxiv.2004.05824",
+  "venue_key": "",
+  "openalex": null,
   "selected": false,
   "id": "10.48550/arxiv.2004.05824"
  },
@@ -3050,7 +3096,7 @@
     "equal": false
    },
    {
-    "name": "de Bruin, Daan",
+    "name": "Daan de Bruin",
     "self": false,
     "equal": false
    },
@@ -3062,13 +3108,13 @@
   ],
   "year": 2019,
   "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
+  "venue": "arXiv",
+  "status": "published",
   "doi": "10.48550/arxiv.1906.08619",
-  "arxiv": "1906.08619",
-  "url": "http://arxiv.org/abs/1906.08619",
-  "openalex": "W2949812058",
+  "arxiv": null,
+  "url": "https://doi.org/10.48550/arxiv.1906.08619",
+  "venue_key": "",
+  "openalex": null,
   "selected": false,
   "id": "10.48550/arxiv.1906.08619"
  },
