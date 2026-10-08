@@ -11,6 +11,8 @@ I am an Assistant Professor in Responsible Medical AI at the [Department of Medi
 
 I previously obtained a PhD and a MSc in Mathematical Logic at ILLC, as well as a MSc in Philosophy of Science at [London School of Economics and Political Science](https://www.lse.ac.uk). My BA is in Philosophy, from the [University of Milan](https://www.unimi.it/en). I also spent several years at [Pacmed](https://www.pacmed.ai/en) as Data Scientist, AI Specialist and Research Lead.
 
+I am a Member of [ELLIS](https://ellis.eu) and an organizer of the [Amsterdam Causality Meetings](https://amscausality.github.io).
+
 ## Research
 
 In my work I strive to improve the impact and reliability of medical AI applications, with the ultimate goal of making healthcare more accessible and effective.
