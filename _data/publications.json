@@ -746,7 +746,7 @@
     "equal": false
    },
    {
-    "name": "Johan A Malmgren",
+    "name": "Johan Malmgren",
     "self": false,
     "equal": false
    },
@@ -833,7 +833,7 @@
     "equal": false
    },
    {
-    "name": "Wouter van Amsterdam",
+    "name": "Wouter A. C. van Amsterdam",
     "self": false,
     "equal": false
    },
@@ -1143,7 +1143,7 @@
     "equal": false
    },
    {
-    "name": "Thamar van Esch",
+    "name": "T.E.M. van Esch",
     "self": false,
     "equal": false
    },
@@ -2089,7 +2089,7 @@
     "equal": false
    },
    {
-    "name": "Marcel J H Ariës",
+    "name": "Marcel J H Aries",
     "self": false,
     "equal": false
    },
@@ -2585,7 +2585,7 @@
     "equal": false
    },
    {
-    "name": "Marcel J H Ariës",
+    "name": "Marcel J H Aries",
     "self": false,
     "equal": false
    },
@@ -3284,5 +3284,26 @@
   "openalex": null,
   "selected": false,
   "id": "asyntacticproofofarrowstheoreminamodallo"
+ },
+ {
+  "title": "A Formal Analysis of the Best System Account of Lawhood",
+  "authors": [
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   }
+  ],
+  "year": 2014,
+  "venue_short": "",
+  "venue": "UvA-DARE (University of Amsterdam)",
+  "venue_key": "UvA-DARE (University of Amsterdam)",
+  "status": "published",
+  "doi": "10.13130/2037-4445/11082",
+  "arxiv": null,
+  "url": "https://doi.org/10.13130/2037-4445/11082",
+  "openalex": "W1604095463",
+  "selected": false,
+  "id": "10.13130/2037-4445/11082"
  }
 ]
