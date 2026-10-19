@@ -24,13 +24,14 @@
    }
   ],
   "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
   "status": "preprint",
+  "doi": null,
   "arxiv": "2602.21889",
   "url": "https://arxiv.org/abs/2602.21889",
-  "doi": null,
-  "openalex": null,
-  "venue": "",
-  "venue_short": "",
+  "openalex": "W7131630468",
   "selected": false,
   "id": "2602.21889"
  },
@@ -171,7 +172,7 @@
     "equal": false
    },
    {
-    "name": "Ameen Abu Hanna",
+    "name": "Ameen Abu–Hanna",
     "self": false,
     "equal": false
    },
@@ -245,6 +246,37 @@
   "id": "2605.11284"
  },
  {
+  "title": "Where Animacy Lives in Large Language Models: Tracing the Circuits of the Animacy Concept",
+  "authors": [
+   {
+    "name": "Samuele Punzo",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Sandro Pezzelle",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2026,
+  "venue_short": "",
+  "venue": "",
+  "venue_key": "arXiv (Cornell University)",
+  "status": "preprint",
+  "doi": null,
+  "arxiv": "2607.20995",
+  "url": "https://arxiv.org/abs/2607.20995",
+  "openalex": "W7170864153",
+  "selected": false,
+  "id": "2607.20995"
+ },
+ {
   "title": "Enhancing Quality of Care Assessments: Managing Atypical Patients in ICU Benchmarking in The Netherlands",
   "authors": [
    {
@@ -273,7 +305,7 @@
     "equal": false
    },
    {
-    "name": "Ameen Abu Hanna",
+    "name": "Ameen Abu–Hanna",
     "self": false,
     "equal": false
    },
@@ -670,6 +702,252 @@
   "openalex": "W4416935310",
   "selected": false,
   "id": "10.1186/s41512-025-00209-4"
+ },
+ {
+  "title": "An Integrated Approach for Representing Knowledge on the Potential of Drugs to Cause Acute Kidney Injury",
+  "authors": [
+   {
+    "name": "Daniel Fernández-Llaneza",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "R VOS",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joris E. Lieverse",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Helen R. Gosselt",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sandra L. Kane‐Gill",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Teun van Gelder",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Joanna Ewa Klopotowska",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ameen Abu–Hanna",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Annemiek Dorgelo",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Annette ten Teije",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Birgit A. Damoiseaux‐Volman",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Cornelis Boersma",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Dave Anton Dongelmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "David H. de Koning",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Erol S. Hofmans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Evelien Tiggelaar",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Frank van Harmelen",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Giovanni Cinà",
+    "self": true,
+    "equal": false
+   },
+   {
+    "name": "Gerty Holla",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Hilda J.I. de Jong",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Iacopo Vagliano",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jan Pander",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jasper M. Boomker",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Jurjen van der Schans",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Kitty J. Jager",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Linda Peute",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Luuk B. Hilbrands",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marianne le Comte",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Marieke Bak",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Mariëtte van den Hoven",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Martijn G. Kersloot",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Menno Tom Maris",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Nicolette F. de Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Otto R. Maarsingh",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Paul Blank",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Piet Heingraaf",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ron M. C. Herings",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ron J. Keizer",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ronald Cornet A",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Ruben Boyd",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sebastiaan L. Knijnenburg",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Sipke Visser",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Stephanie K. Medlock",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Tjerk S. Heijmens Visser",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Vianda S Stel",
+    "self": false,
+    "equal": false
+   },
+   {
+    "name": "Wanda Konijn",
+    "self": false,
+    "equal": false
+   }
+  ],
+  "year": 2024,
+  "venue_short": "",
+  "venue": "Drug Safety",
+  "venue_key": "Drug Safety",
+  "status": "published",
+  "doi": "10.1007/s40264-024-01474-w",
+  "arxiv": null,
+  "url": "https://doi.org/10.1007/s40264-024-01474-w",
+  "openalex": "W4402890496",
+  "selected": false,
+  "id": "10.1007/s40264-024-01474-w"
  },
  {
   "title": "Development and clinical implementation of real-time decision support tools for ICU discharge",
@@ -1482,7 +1760,7 @@
     "equal": false
    },
    {
-    "name": "Judith Lens",
+    "name": "Judith A Lens",
     "self": false,
     "equal": false
    },
@@ -1517,12 +1795,12 @@
     "equal": false
    },
    {
-    "name": "Fleuren, Lucas M.",
+    "name": "Lucas M. Fleuren",
     "self": false,
     "equal": false
    },
    {
-    "name": "Dam, Tariq A.",
+    "name": "Tariq A. Dam",
     "self": false,
     "equal": false
    },
@@ -1576,27 +1854,12 @@
   "year": 2021,
   "venue_short": "UAI",
   "venue": "Conference on Uncertainty in Artificial Intelligence",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "published",
-  "doi": null,
-  "arxiv": "2012.05329",
-  "url": "https://arxiv.org/abs/2012.05329",
-  "openalex": "W3111327898",
-  "selected": false,
-  "id": "2012.05329"
- },
- {
-  "title": "Know Your Limits: Uncertainty Estimation with ReLU Classifiers Fails at Reliable OOD Detection",
-  "authors": [],
-  "year": 2021,
-  "venue_short": "",
-  "venue": "37th Conference on Uncertainty in Artificial Intelligence, UAI 2021",
+  "venue_key": "IT University Of Copenhagen (IT University of Copenhagen)",
   "status": "published",
   "doi": "10.48550/arxiv.2012.05329",
-  "arxiv": null,
-  "url": null,
-  "venue_key": "",
-  "openalex": null,
+  "arxiv": "2012.05329",
+  "url": "https://pure.itu.dk/portal/da/publications/b80af5a9-b1ae-45c4-b002-93bdd1b99f5b",
+  "openalex": "W3134514250",
   "selected": false,
   "id": "10.48550/arxiv.2012.05329"
  },
@@ -1774,7 +2037,7 @@
     "equal": false
    },
    {
-    "name": "Judith Lens",
+    "name": "Judith A Lens",
     "self": false,
     "equal": false
    },
@@ -2305,7 +2568,7 @@
     "equal": false
    },
    {
-    "name": "Judith Lens",
+    "name": "Judith A Lens",
     "self": false,
     "equal": false
    },
@@ -2380,7 +2643,7 @@
     "equal": false
    },
    {
-    "name": "Nicolet F. de Keizer",
+    "name": "Nicolette F. de Keizer",
     "self": false,
     "equal": false
    },
@@ -2806,7 +3069,7 @@
     "equal": false
    },
    {
-    "name": "Judith Lens",
+    "name": "Judith A Lens",
     "self": false,
     "equal": false
    },
@@ -3039,41 +3302,10 @@
   "venue": "",
   "venue_key": "arXiv (Cornell University)",
   "status": "preprint",
-  "doi": null,
-  "arxiv": "2004.05824",
-  "url": "https://arxiv.org/abs/2004.05824",
-  "openalex": "W3015984827",
-  "selected": false,
-  "id": "2004.05824"
- },
- {
-  "title": "Uncertainty estimation for classification and risk prediction on medical tabular data",
-  "authors": [
-   {
-    "name": "Lotta Meijerink",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Michele Tonutti",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2020,
-  "venue_short": "",
-  "venue": "arXiv",
-  "status": "published",
   "doi": "10.48550/arxiv.2004.05824",
-  "arxiv": null,
-  "url": "https://doi.org/10.48550/arxiv.2004.05824",
-  "venue_key": "",
-  "openalex": null,
+  "arxiv": "2004.05824",
+  "url": "http://arxiv.org/abs/2004.05824",
+  "openalex": "W3028279294",
   "selected": false,
   "id": "10.48550/arxiv.2004.05824"
  },
