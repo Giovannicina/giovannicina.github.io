@@ -123,7 +123,7 @@
   "id": "2603.10254"
  },
  {
-  "title": "Is my model perplexed for the right reason? Contrasting LLMs' Benchmark Behavior with Token-Level Perplexity",
+  "title": "Is my model perplexed for the right reason? Contrasting LLMs’ Benchmark Behavior with Token-Level Perplexity",
   "authors": [
    {
     "name": "Zoë Prins",
@@ -153,15 +153,15 @@
   ],
   "year": 2026,
   "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": null,
+  "venue": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  "venue_key": "Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+  "status": "published",
+  "doi": "10.18653/2026.emnlp-main.110",
   "arxiv": "2603.29396",
-  "url": "https://arxiv.org/abs/2603.29396",
+  "url": "https://doi.org/10.18653/2026.emnlp-main.110",
   "openalex": "W7147335386",
   "selected": false,
-  "id": "2603.29396"
+  "id": "10.18653/2026.emnlp-main.110"
  },
  {
   "title": "Optimal stopping of ICU treatments under hypothetical interventions - A Scoping Review",
@@ -244,37 +244,6 @@
   "openalex": "W7161047658",
   "selected": false,
   "id": "2605.11284"
- },
- {
-  "title": "Where Animacy Lives in Large Language Models: Tracing the Circuits of the Animacy Concept",
-  "authors": [
-   {
-    "name": "Samuele Punzo",
-    "self": false,
-    "equal": false
-   },
-   {
-    "name": "Giovanni Cinà",
-    "self": true,
-    "equal": false
-   },
-   {
-    "name": "Sandro Pezzelle",
-    "self": false,
-    "equal": false
-   }
-  ],
-  "year": 2026,
-  "venue_short": "",
-  "venue": "",
-  "venue_key": "arXiv (Cornell University)",
-  "status": "preprint",
-  "doi": null,
-  "arxiv": "2607.20995",
-  "url": "https://arxiv.org/abs/2607.20995",
-  "openalex": "W7170864153",
-  "selected": false,
-  "id": "2607.20995"
  },
  {
   "title": "Enhancing Quality of Care Assessments: Managing Atypical Patients in ICU Benchmarking in The Netherlands",
@@ -1854,11 +1823,11 @@
   "year": 2021,
   "venue_short": "UAI",
   "venue": "Conference on Uncertainty in Artificial Intelligence",
-  "venue_key": "IT University Of Copenhagen (IT University of Copenhagen)",
+  "venue_key": "arXiv (Cornell University)",
   "status": "published",
   "doi": "10.48550/arxiv.2012.05329",
   "arxiv": "2012.05329",
-  "url": "https://pure.itu.dk/portal/da/publications/b80af5a9-b1ae-45c4-b002-93bdd1b99f5b",
+  "url": "http://arxiv.org/abs/2012.05329",
   "openalex": "W3134514250",
   "selected": false,
   "id": "10.48550/arxiv.2012.05329"
